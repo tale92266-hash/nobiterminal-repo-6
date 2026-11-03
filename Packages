@@ -551,6 +551,100 @@ MD5sum: db4e4b736ae6d4761fced6670dacf203
 SHA1: 9aeb397dc82c0bd50530974b32d1b0be7713de34
 SHA256: bcc70b47476f9a149717aabd8be7260336228ed2ff616e14de7b4e050e562b8a
 
+Package: sparsehash
+Architecture: aarch64
+Installed-Size: 740
+Maintainer: @termux
+Version: 2.0.4-1
+Homepage: https://github.com/sparsehash/sparsehash
+Description: Extremely memory-efficient C++ hash_map implementation
+Filename: ./sparsehash_2.0.4-1_aarch64.deb
+Size: 76284
+MD5sum: 5cbdb73d68c41c83649bda91cce9c2cf
+SHA1: 8704fdff47ecdfe573f2815edb5b2d7f756907a9
+SHA256: 844d5e52e7ddc3cc582c37fe38d6589fc25e3feb78759ce0c914f94bc795a8f2
+
+Package: spatialite-tools
+Architecture: aarch64
+Installed-Size: 652
+Maintainer: @termux
+Version: 5.1.0a-1
+Homepage: https://www.gaia-gis.it/fossil/spatialite-tools
+Depends: libexpat, libiconv, libspatialite, libsqlite, libxml2
+Description: Collection of tools supporting SpatiaLite
+Filename: ./spatialite-tools_5.1.0a-1_aarch64.deb
+Size: 165668
+MD5sum: a141a6269d446c71dbf4cf6c046b7ac3
+SHA1: ba9696a1fe90a757c5db829892a1244eb56c330a
+SHA256: 7ed1606b6cdb4fb4af6e85d405b5e48482e60f9652e5c5289a8ac328f924a4ce
+
+Package: speedtest-go
+Architecture: aarch64
+Installed-Size: 9600
+Maintainer: @termux
+Version: 1.8.3-2
+Homepage: https://github.com/showwin/speedtest-go/
+Description: Command line interface to test internet speed using speedtest.net
+Filename: ./speedtest-go_1.8.3-2_aarch64.deb
+Size: 2645632
+MD5sum: 1953ab37f003e368f1ca28b96d13ef24
+SHA1: bf7c2adf19320fd4cfa29838898ba72b133dc313
+SHA256: 6a6b5f6fae587553c99fb07c28f76925d687b888117e962af48753bc7c058995
+
+Package: spglib
+Architecture: aarch64
+Installed-Size: 2728
+Maintainer: @termux
+Version: 2.8.0-1
+Homepage: https://spglib.github.io/spglib/index.html
+Description: C library for finding and handling crystal symmetries
+Filename: ./spglib_2.8.0-1_aarch64.deb
+Size: 397424
+MD5sum: 214b4a9a6a166c7fbaf6d92da12ab523
+SHA1: 1322d78b48352fbe20908dc0fd071358eb94e8be
+SHA256: efbecb25db7163fbf2c16bc0a14f8dc8dc3dc31fa8398a60d641d7f60bb88151
+
+Package: spidermonkey
+Architecture: aarch64
+Installed-Size: 42356
+Maintainer: @termux
+Version: 140.17.0-1
+Homepage: https://spidermonkey.dev
+Depends: libicu, libnspr, libnss, zlib
+Description: Mozilla's JavaScript engine
+Filename: ./spidermonkey_140.17.0-1_aarch64.deb
+Size: 12314344
+MD5sum: 8beadd94e584c9fe0b4a47196c2778fb
+SHA1: 0e9b500c1a64beab11223a3e70dc240cec95d9be
+SHA256: 606a161f1b9bd179c3f11535e53ba648e6073c56b178976c166a69608f57d311
+
+Package: spiped
+Architecture: aarch64
+Installed-Size: 228
+Maintainer: @termux
+Version: 1.6.4-2
+Homepage: https://www.tarsnap.com/spiped.html
+Depends: openssl
+Description: a utility for creating symmetrically encrypted and authenticated pipes between socket addresses
+Filename: ./spiped_1.6.4-2_aarch64.deb
+Size: 48688
+MD5sum: 325351efe3a75cf815e026c4bd257b42
+SHA1: 33ab7f46d2234a8589cb42602bda41320f1778d9
+SHA256: 49bace7d52485e893341dffb77247b3fb22725836371ca2558521f8b20f6e154
+
+Package: spirv-headers
+Architecture: all
+Installed-Size: 3968
+Maintainer: @termux
+Version: 1.4.363.0-1
+Homepage: https://github.com/KhronosGroup/SPIRV-Headers
+Description: SPIR-V Headers
+Filename: ./spirv-headers_1.4.363.0-1_all.deb
+Size: 178668
+MD5sum: 1c68419932141da9ab6b9b9f1e763c26
+SHA1: 9cadccf4c5f653414c0664209690a8b892a343b9
+SHA256: 7784afd899a2a2361303f87e2b61eabc85748efa08f4cda92919773b968b9166
+
 Package: spirv-tools
 Architecture: aarch64
 Installed-Size: 40812
@@ -564,3 +658,681 @@ Size: 4115072
 MD5sum: 1f38d0c2ce77c8a887c2be6cbb198b39
 SHA1: 05afd61494d01165e3d3a85f1ee07102f629f716
 SHA256: 55b0694106024cb33be850a6d777e6bba8c3e75495692e01b5f54ad708d24e19
+
+Package: sqlc
+Architecture: aarch64
+Installed-Size: 59528
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.31.1-3
+Homepage: https://sqlc.dev
+Description: Generate type-safe code from SQL
+Filename: ./sqlc_1.31.1-3_aarch64.deb
+Size: 10321608
+MD5sum: 22b59487463f692eaa2711f31bea0bb6
+SHA1: 6e73b8fa5ddd9f5ddd390bfd7a47ab88f5c192fc
+SHA256: 33c65b88171f2d65ab6b99fb5abc0dcc7bd9bea60a63a07257e5ba8278b63447
+
+Package: squashfs-tools-ng-static
+Architecture: aarch64
+Installed-Size: 204
+Maintainer: @termux
+Version: 1.3.2-2
+Homepage: https://github.com/AgentD/squashfs-tools-ng
+Depends: squashfs-tools-ng (= 1.3.2-2)
+Description: Static libraries for squashfs-tools-ng
+Filename: ./squashfs-tools-ng-static_1.3.2-2_aarch64.deb
+Size: 38020
+MD5sum: 6e7c672ed17f5cc864ebba7a38d498df
+SHA1: 464efc51b4d31c977187b8d54166610a3462cde6
+SHA256: c870ac562a14eb756feef5efc629986522a7d56c70d709e74149dbfa74a74565
+
+Package: squashfs-tools-ng
+Architecture: aarch64
+Installed-Size: 596
+Maintainer: @termux
+Version: 1.3.2-2
+Homepage: https://github.com/AgentD/squashfs-tools-ng
+Depends: liblz4, liblzma, liblzo, zlib, zstd
+Description: New set of tools for working with SquashFS images
+Filename: ./squashfs-tools-ng_1.3.2-2_aarch64.deb
+Size: 124676
+MD5sum: 8b7cdaa83a1b2db5e1f0ff1378d0767f
+SHA1: 8753d9ff2031ef58e15698e166a04cc13275695c
+SHA256: 6c0237b4f3405fba30b2d01051f941dd2b86b971a14abb8c48a35191d61a3ebf
+
+Package: srelay
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 0.4.9-1
+Homepage: https://sourceforge.net/projects/socks-relay/
+Depends: libcrypt
+Description: A Free SOCKS proxy server
+Filename: ./srelay_0.4.9-1_aarch64.deb
+Size: 26724
+MD5sum: 7321a6269c8aeda87efb8f2be960a85e
+SHA1: 62f4a04c2606203d2f9ff00fa1f8f655b5df810b
+SHA256: 8e63d61edb48090e1d27f2564aa734f1714440c9469bedab78a23af2911a1c30
+
+Package: ssdb
+Architecture: aarch64
+Installed-Size: 2152
+Maintainer: @termux
+Version: 1.9.9-4
+Homepage: https://ssdb.io/
+Depends: leveldb, libc++
+Description: A Redis compatible NoSQL database stored on disk
+Filename: ./ssdb_1.9.9-4_aarch64.deb
+Size: 288836
+MD5sum: 019640933a072789e00bf21e6e780f59
+SHA1: 09b874ad1a5fa283dcd71f21db3256104f7ef3d0
+SHA256: 028d0ff003a129e7a96fdbb1c02f5af1594dfc946de57cdd1c3e992d2a48db0f
+
+Package: ssdeep-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 2.14.1-3
+Homepage: https://ssdeep-project.github.io/ssdeep/
+Depends: ssdeep (= 2.14.1-3)
+Description: Static libraries for ssdeep
+Filename: ./ssdeep-static_2.14.1-3_aarch64.deb
+Size: 7212
+MD5sum: ff90f76656414930734c55053e2154cd
+SHA1: f585ac171639891bff395c9e68512de6bd512d8f
+SHA256: 8dec7ee135d24c24e35315f11722b02f1ce3a7ab658f0f765316964b3f7e74f2
+
+Package: ssdeep
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 2.14.1-3
+Homepage: https://ssdeep-project.github.io/ssdeep/
+Depends: libc++
+Description: A program for computing context triggered piecewise hashes (CTPH)
+Filename: ./ssdeep_2.14.1-3_aarch64.deb
+Size: 34140
+MD5sum: a81ada71414b2115ef5891adab3eeb30
+SHA1: 873093c983a29a7e93cabdbb7897ef7e2cf7053a
+SHA256: aade584a504fa8ab75a6ee1f93ec3fd468d1c3b84ca91aa993819a93ed1c1ee8
+
+Package: sse2neon
+Architecture: all
+Installed-Size: 520
+Maintainer: @termux
+Version: 1.9.1-1
+Homepage: https://github.com/DLTcollab/sse2neon
+Description: A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics
+Filename: ./sse2neon_1.9.1-1_all.deb
+Size: 61880
+MD5sum: c3b8828d5c45b765ed7ecd2932a59894
+SHA1: 03f14a84a7a0b3d6cbad4a6a467e2341508ef6ef
+SHA256: 5e5f4a6a58db97bac63958518565ae96156c0f60310fef7a3707bde2030490e8
+
+Package: sshpass
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 1.10-2
+Homepage: https://sourceforge.net/projects/sshpass/
+Description: Noninteractive ssh password provider
+Filename: ./sshpass_1.10-2_aarch64.deb
+Size: 8512
+MD5sum: 650b7148f6ea8c132950e9dbf93a309f
+SHA1: 54f9563249b01374fe5db79939adfa2fa061a793
+SHA256: d9ddca54551d2fe914660e025233c535e744043edfab710f638ce988a1efe5bf
+
+Package: sshping
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 0.1.4-4
+Homepage: https://github.com/spook/sshping
+Depends: libc++, libssh
+Description: measure character-echo latency and bandwidth for an interactive ssh session
+Filename: ./sshping_0.1.4-4_aarch64.deb
+Size: 28920
+MD5sum: ab267420d21cdcbb98d7ec78bf057a40
+SHA1: 81b2d678efe10614237142e6e47cab54fca24138
+SHA256: 3a35b23417c34d1a9a41810b1679c8ee60bc627ee15e10948aefa46924bf947e
+
+Package: sslscan
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: @termux
+Version: 2.2.3-1
+Homepage: https://github.com/rbsec/sslscan
+Depends: openssl (>= 3.5.0)
+Description: Utility to discover supported cipher suites on SSL/TLS enabled servers
+Filename: ./sslscan_2.2.3-1_aarch64.deb
+Size: 41784
+MD5sum: 34f7408b9cda3c6688dc538bfc8daea6
+SHA1: d26719d5db31d9f90e2a692a9b849222cd240c72
+SHA256: c926ccd7006ef1ed6c3e83592418916d4cf6fc3a17407bbdb562379c64945fa1
+
+Package: sssnake
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 0.4.0-1
+Homepage: https://github.com/AngelJumbo/sssnake
+Description: cli snake game that plays itself
+Filename: ./sssnake_0.4.0-1_aarch64.deb
+Size: 26248
+MD5sum: 04906a93883061babf8fcd504c22ed4f
+SHA1: da76b267db5c325ac332f955460c2b3d4404fd52
+SHA256: 28b5bbd00c54a3d33f37e8635d3968936dc6ad125eb433c6f41f0da1491e5026
+
+Package: ssss
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 0.5.7-2
+Homepage: https://github.com/MrJoy/ssss
+Depends: libgmp
+Description: Simple command-line implementation of Shamir's Secret Sharing Scheme
+Filename: ./ssss_0.5.7-2_aarch64.deb
+Size: 10868
+MD5sum: 9ecd374b8ba8df4103e8d997d155b58f
+SHA1: 7f9d7b36a01eac03468b8419c260d752e3247a08
+SHA256: 82afe4bb6e8c282d6029bbb8c831bb7ea0c79ebb192dcd509a2b034a750c80e6
+
+Package: stone
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 2.4-4
+Homepage: https://www.gcd.org/sengoku/stone/
+Depends: openssl
+Description: A TCP/IP repeater in the application layer
+Filename: ./stone_2.4-4_aarch64.deb
+Size: 48268
+MD5sum: c88f2c5519780b4e6d0a87c8e7f85d11
+SHA1: 422c945352df749b8c7d7a862504ed505e7f4302
+SHA256: ce610326f2c56e7fa9485055b23cd12aea3552322a8134a89cabbab8d3ed0054
+
+Package: stow
+Architecture: all
+Installed-Size: 860
+Maintainer: @termux
+Version: 2.4.1-1
+Homepage: https://www.gnu.org/software/stow/
+Depends: perl
+Description: Tool for managing the installation of multiple software packages into a single directory
+Filename: ./stow_2.4.1-1_all.deb
+Size: 108308
+MD5sum: 9a8d1cdbab0da39a7c5e33ebc97b583e
+SHA1: 29bc3d6b700cc7f4e75219cb6cf1b8efe1c4f3d2
+SHA256: 82d75c3389802b89f2b1583efd9faaa5d8f0999f8f94ddb54a080d16c9d4f4e7
+
+Package: strace
+Architecture: aarch64
+Installed-Size: 2000
+Maintainer: @termux
+Version: 7.3-1
+Homepage: https://strace.io/
+Depends: libdw
+Description: Debugging utility to monitor system calls and signals received
+Filename: ./strace_7.3-1_aarch64.deb
+Size: 474180
+MD5sum: 9bf596fb5c5d3e1c955141628f1e9b03
+SHA1: 10628e4dda5f9532cc969082c1c9d6d970898931
+SHA256: 298134ad508b966105a4c22e144888fc33a90d4c7fe0e35189472e83af5a4e24
+
+Package: streamripper
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: @termux
+Version: 1.64.6-4
+Homepage: https://streamripper.sourceforge.net/
+Depends: glib, libmad, libogg, libvorbis
+Description: Records and splits streaming mp3 into tracks
+Filename: ./streamripper_1.64.6-4_aarch64.deb
+Size: 54076
+MD5sum: 779a1a7004a08a9956b962ba9dcd4971
+SHA1: a4598b4b46b8d884d34e94bfb8c703c262fd0b76
+SHA256: 8582174a0ae78a124062494c41abd825d5b2a3ed68205099d117d6f1bdc0931b
+
+Package: stunnel-static
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @termux
+Version: 5.82-1
+Homepage: https://www.stunnel.org/
+Depends: stunnel (= 5.82-1)
+Description: Static libraries for stunnel
+Filename: ./stunnel-static_5.82-1_aarch64.deb
+Size: 2080
+MD5sum: 085617b92d389742b6f798bfe3de9f0d
+SHA1: e646edcd9aa75cbb36537ce76b301b0013d100c5
+SHA256: 0fe038b424abfcc52ae6a6f7c2141af9dd2f387a4c80b41724a97f1fd881d36c
+
+Package: stunnel
+Architecture: aarch64
+Installed-Size: 688
+Maintainer: @termux
+Version: 5.82-1
+Homepage: https://www.stunnel.org/
+Depends: openssl
+Description: Socket wrapper which can provide TLS support to ordinary applications
+Filename: ./stunnel_5.82-1_aarch64.deb
+Size: 190944
+MD5sum: c18e5c7282e8d4a6292dcab8c317c9df
+SHA1: 17a1e188c569aa4d657e81feceaedb8b8b891a2c
+SHA256: 8cfcb07a5a84aecd03c13838d998474250a9f052b35a4d24de4d38cb600a64d1
+
+Package: stuntman
+Architecture: aarch64
+Installed-Size: 360
+Maintainer: @termux
+Version: 1.2.16-9
+Homepage: https://www.stunprotocol.org/
+Depends: libc++, openssl
+Description: An open source STUN server
+Filename: ./stuntman_1.2.16-9_aarch64.deb
+Size: 85224
+MD5sum: c75210fa109ba6236fccea96bbcdfdbe
+SHA1: a8ce7acb525c8207909d08f88bad9b77de907145
+SHA256: 3cd7567065f25cf49978742f8e248f37636e154d3ea7c0064063c35ddab112a4
+
+Package: stylua
+Architecture: aarch64
+Installed-Size: 6884
+Maintainer: @termux
+Version: 2.6.0-1
+Homepage: https://github.com/JohnnyMorganz/StyLua
+Description: An opinionated Lua code formatter
+Filename: ./stylua_2.6.0-1_aarch64.deb
+Size: 1783644
+MD5sum: 503d2498cc327b6fe783e3e148e272c5
+SHA1: 4e040308e9d49b3cb1fdf68e69927715e7a8ab2e
+SHA256: dacb84477e2e6e5b1693dbfe05d9d890606f10285d9702ff0839297c0f22ff0b
+
+Package: sudo
+Architecture: all
+Installed-Size: 472
+Maintainer: @agnostic-apollo
+Version: 1.3.0-1
+Homepage: https://github.com/agnostic-apollo/sudo
+Depends: bash
+Conflicts: tsu
+Replaces: tsu
+Description: A wrapper script to drop to the supported shells or execute shell script files or their text passed as an argument as the root (superuser) user in the Termux app
+Filename: ./sudo_1.3.0-1_all.deb
+Size: 54816
+MD5sum: 7d496dd9cb81fcecef105001a9169e4c
+SHA1: 3eec31bbce85f5f074894cb1ce6de569dece6699
+SHA256: aff45898ef0b5c0531235274a555ace71fc63852f0268ed54e3880708a9444c5
+
+Package: suil
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 0.10.26-1
+Homepage: https://drobilla.net/software/suil.html
+Depends: lv2
+Description: A library for loading and wrapping LV2 plugin UIs
+Filename: ./suil_0.10.26-1_aarch64.deb
+Size: 7992
+MD5sum: 7e0d54936fcba67680989debd5cd8497
+SHA1: 7a82b437bfeaeb02146c5c3b96fe1c9c846d1cce
+SHA256: c700acd1cfa32781210c849e920623d7e885c960094680645c081ca103502f89
+
+Package: suite3270
+Architecture: aarch64
+Installed-Size: 3864
+Maintainer: @termux
+Version: 4.1ga11-4
+Homepage: https://x3270.bgp.nu/
+Depends: less, libexpat, libiconv, ncurses, openssl
+Description: A family of IBM 3270 terminal emulators and related tools
+Filename: ./suite3270_4.1ga11-4_aarch64.deb
+Size: 586940
+MD5sum: c966482913e312afbc783834f8d9bfb6
+SHA1: 78ab6e5adfb89e0ae1ba035f543cface07473064
+SHA256: f60b7074fb861c920524232f8dca62ef4a116741fa2ec0a7879943852a42c5c8
+
+Package: suitesparse-static
+Architecture: aarch64
+Installed-Size: 7688
+Maintainer: @termux
+Version: 2:7.14.1-1
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Depends: suitesparse (= 2:7.14.1-1)
+Description: Static libraries for suitesparse
+Filename: ./suitesparse-static_2:7.14.1-1_aarch64.deb
+Size: 1323412
+MD5sum: 88226d9233d9faed2018b7939e518e56
+SHA1: b895b5742f6eb3d9c577ff789b11711ba7f26a0f
+SHA256: 52dc6c97106938fa4261d71544738b2d76aae1c3022af4e3ad449f8b77689aee
+
+Package: suitesparse
+Architecture: aarch64
+Installed-Size: 52924
+Maintainer: @termux
+Version: 2:7.14.1-1
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Breaks: sundials (<< 7.1.1-2), octave (<< 8.4.0-6), octave-x (<< 8.4.0-5)
+Depends: libandroid-complex-math, libgmp, libmpfr, libopenblas
+Description: A Suite of Sparse matrix packages.
+Filename: ./suitesparse_2:7.14.1-1_aarch64.deb
+Size: 7416544
+MD5sum: b0dadac644e457900be3c4552670873e
+SHA1: eadbdfece2b905bb09e5c757df0e55958a3f0ac5
+SHA256: d51ae9fee0bc4e9ed8831234b1920dfcb7ba3c9cd16af4a49ea9883e431320c4
+
+Package: sun
+Architecture: aarch64
+Installed-Size: 2664
+Maintainer: @termux
+Version: 1.0.0-5
+Homepage: https://stand-up-notes.org
+Description: A very simple note taking cli app
+Filename: ./sun_1.0.0-5_aarch64.deb
+Size: 761880
+MD5sum: 01f3782f1a4e0a7e4b1253ec0f3244ca
+SHA1: 8ca034a473758b219c95ca6e16a6708bfec9da5c
+SHA256: c797024175e1fc760e9932d75e565821a1b13c3188b89a3e8595572c715c0c7f
+
+Package: sundials-static
+Architecture: aarch64
+Installed-Size: 4116
+Maintainer: @termux
+Version: 2:7.9.0-1
+Homepage: https://computing.llnl.gov/projects/sundials
+Depends: sundials (= 2:7.9.0-1)
+Description: Static libraries for sundials
+Filename: ./sundials-static_2:7.9.0-1_aarch64.deb
+Size: 483364
+MD5sum: b43f5b9f499e1caa04b0f056ce14a399
+SHA1: 17b5bbccf3c72df4c3083a4ace81d9e1fff20e6c
+SHA256: 1f51e73cd080f487dd14b2511422372c5b017606e103c085075ea54a2efb7346
+
+Package: sundials
+Architecture: aarch64
+Installed-Size: 4340
+Maintainer: @termux
+Version: 2:7.9.0-1
+Homepage: https://computing.llnl.gov/projects/sundials
+Depends: suitesparse
+Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
+Filename: ./sundials_2:7.9.0-1_aarch64.deb
+Size: 781728
+MD5sum: dbe4dbd87ae44f735259f15ed031558c
+SHA1: e9cd391bc7886d017b7cef7afbf849b417429625
+SHA256: 9a89332ae20c57539de94965727d3fc8ad7851a3f757723112e0aeca5c0a0fd2
+
+Package: surfraw
+Architecture: aarch64
+Installed-Size: 684
+Maintainer: @termux
+Version: 2.3.0-11
+Homepage: https://gitlab.com/surfraw/Surfraw
+Depends: lynx, perl
+Description: Shell Users' Revolutionary Front Rage Against the Web
+Filename: ./surfraw_2.3.0-11_aarch64.deb
+Size: 71956
+MD5sum: 3ffb7a3ed6d8b298dd26a6146ec4c8e5
+SHA1: 70d4aea702ab8dc30fbfcec515dabb9a07b2a3eb
+SHA256: 91c6c151ffa1e4fd66fb8efa333830b4e126a24312ea03586daa0eda51591544
+
+Package: swaks
+Architecture: all
+Installed-Size: 280
+Maintainer: @termux
+Version: 20240103.0-1
+Homepage: http://jetmore.org/john/code/swaks/
+Depends: perl
+Description: Swiss Army Knife for SMTP
+Filename: ./swaks_20240103.0-1_all.deb
+Size: 58236
+MD5sum: 3b06e3c1d5baf92b63d80ce325c18518
+SHA1: 117835cc475e21a1f059d59476014311b5a2b3c6
+SHA256: 4acd436eaebe1c648a4496c2cfd759e33bc00176989c2da772a914ba6fa683f4
+
+Package: swtpm-static
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: @termux
+Version: 0.10.2-1
+Homepage: https://github.com/stefanberger/swtpm
+Depends: swtpm (= 0.10.2-1)
+Description: Static libraries for swtpm
+Filename: ./swtpm-static_0.10.2-1_aarch64.deb
+Size: 47104
+MD5sum: 81adff82552d416db47cc3c2b5167b4d
+SHA1: 7347d084431539aa00a1dda06de1a6308ba2302d
+SHA256: bc4f8784c14f7a0e3d681c38fc96c0674e093668b82639895cb54deb9e275c47
+
+Package: swtpm
+Architecture: aarch64
+Installed-Size: 504
+Maintainer: @termux
+Version: 0.10.2-1
+Homepage: https://github.com/stefanberger/swtpm
+Depends: glib, json-glib, libseccomp, libtpms, openssl
+Description: Software TPM Emulator
+Filename: ./swtpm_0.10.2-1_aarch64.deb
+Size: 137264
+MD5sum: b2b8bf0f529dbe61af8bf4986d5bc38b
+SHA1: 000b4d3e53482f45fd2fe20b58609dad248c7fdd
+SHA256: 4e6705d9b23406d91c7004188c2717789cf3a36498bb776cda91736f05adfae1
+
+Package: syncthing
+Architecture: aarch64
+Installed-Size: 34680
+Maintainer: @termux
+Version: 2.1.7-2
+Homepage: https://syncthing.net/
+Description: Decentralized file synchronization
+Filename: ./syncthing_2.1.7-2_aarch64.deb
+Size: 10031140
+MD5sum: ba49dff3d0d270037bb29d08871443f8
+SHA1: 53a7fd767db6b0339d1c2b9c0821ab35f29fed45
+SHA256: 20e14328c492a20be284b37382b16625162ca3f8786d15031b2920a05f943707
+
+Package: taplo
+Architecture: aarch64
+Installed-Size: 10432
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.10.0-3
+Homepage: https://taplo.tamasfe.dev/
+Depends: openssl
+Description: A TOML LSP and toolkit
+Filename: ./taplo_0.10.0-3_aarch64.deb
+Size: 3006504
+MD5sum: 1394e0d19462acaad538055cb76bcf2d
+SHA1: da021394826e849a709e3e9c7bed090d07e13498
+SHA256: 8fb7dc2e27769b3c9d71449438dd53dd2983db54f011523b064520457377a20c
+
+Package: task-spooler
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: @termux
+Version: 1:1.0.4-1
+Homepage: https://vicerveza.homeunix.net/~viric/soft/ts/
+Description: Task spooler is a Unix batch system where the tasks spooled run one after the other
+Filename: ./task-spooler_1:1.0.4-1_aarch64.deb
+Size: 25368
+MD5sum: 1798bfa1d9ddaddd3f0e0207de0f5e9d
+SHA1: 592de97de7fd275fe2df5b4c1c3ae5a249509924
+SHA256: ccddcd803f5249cab4b3e8f8525af05d8ee70675a173dbd8ce868f3c4bad5f5f
+
+Package: tasksh
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: @termux
+Version: 1.2.0-12
+Homepage: https://taskwarrior.org
+Depends: libc++, readline, taskwarrior, libandroid-glob
+Description: Shell command wrapping Taskwarrior commands
+Filename: ./tasksh_1.2.0-12_aarch64.deb
+Size: 93160
+MD5sum: 7c2e7ae4533ef0306cde1f7bf2702aee
+SHA1: a1590434a9135bac43e7ed6ae1039cf289cf5720
+SHA256: d973e2294bcd78e2ca4cfff7592d3e17a022a20d4ce2913a23257d28105b29f1
+
+Package: taskwarrior
+Architecture: aarch64
+Installed-Size: 15500
+Maintainer: @termux
+Version: 3.5.0-1
+Homepage: https://taskwarrior.org
+Depends: libandroid-glob, libc++, libgnutls, libuuid
+Description: Utility for managing your TODO list
+Filename: ./taskwarrior_3.5.0-1_aarch64.deb
+Size: 4641836
+MD5sum: 0157c173352c277a0c50ebd6a2998572
+SHA1: d7178f0c65527f3862a24a981c4f544e439abd81
+SHA256: 7f58a4e3ab56ee4707f9e846eaea8b7ecfea2a2cd93b382d580a43da86df288c
+
+Package: tcllib
+Architecture: all
+Installed-Size: 15124
+Maintainer: @termux
+Version: 2.0-1
+Homepage: https://core.tcl-lang.org/tcllib/
+Depends: tcl
+Recommends: resolv-conf
+Description: Tcl Standard Library
+Filename: ./tcllib_2.0-1_all.deb
+Size: 3630964
+MD5sum: 5d327d4dc323e9c2ec56ba709f5b3661
+SHA1: 888a69a274fc8f45d1180287240a441cb4bbe4cb
+SHA256: a9e4db78272cb62193edf134e4f6644c613949d92eebf81806508dc780224d8a
+
+Package: tcsh
+Architecture: aarch64
+Installed-Size: 484
+Maintainer: @termux
+Version: 6.24.16-2
+Homepage: https://www.tcsh.org
+Description: TENEX C Shell, an enhanced version of Berkeley csh
+Filename: ./tcsh_6.24.16-2_aarch64.deb
+Size: 212052
+MD5sum: c612cf36d5152c0f457f31d0cbd367c1
+SHA1: 9d773f771cea95c0b5c51c3cace876b0a7aa144b
+SHA256: f8a34f7bb7eefd8aa7403a80a49bdd1f683cc8660e470e789d67c9c2e6b35a80
+
+Package: tdl
+Architecture: aarch64
+Installed-Size: 51832
+Maintainer: @termux
+Version: 0.20.4-2
+Homepage: https://docs.iyear.me/tdl/
+Description: Telegram downloader/tools written in Golang
+Filename: ./tdl_0.20.4-2_aarch64.deb
+Size: 9187412
+MD5sum: c69dc93eb1548b90aea335709717a6f2
+SHA1: e8944d9d8a269a4a3ddaed030367f6f65cc4c84a
+SHA256: 8683a8df8d9bb9c4f7ac57ebedb5f408ed255637edbd795852f87ad17d4f58f0
+
+Package: tea
+Architecture: aarch64
+Installed-Size: 29156
+Maintainer: @termux
+Version: 0.16.0-2
+Homepage: https://gitea.com/gitea/tea
+Description: The official CLI for Gitea
+Filename: ./tea_0.16.0-2_aarch64.deb
+Size: 6175636
+MD5sum: 8f33dd2a276f9467621d59d481904f24
+SHA1: e2c97984e9a887a7b3c860ff78a04452307126da
+SHA256: 79b09ed42f585715660dbfce22b3bb67b1661c88a8d5c83678096e9008a39560
+
+Package: tealdeer
+Architecture: aarch64
+Installed-Size: 3028
+Maintainer: @termux
+Version: 1.9.1-1
+Homepage: https://tealdeer-rs.github.io/tealdeer/
+Description: A very fast implementation of tldr in Rust
+Filename: ./tealdeer_1.9.1-1_aarch64.deb
+Size: 1216860
+MD5sum: 3f77b63c6b4bbbb9d80034690b11e495
+SHA1: c4368d204111b01409aafd73ea7bc0818010b6ce
+SHA256: 68c60bfe8e63bc702d8481d8f715269058d6bbd17d1ea3f286a6a11eed71c261
+
+Package: teckit-static
+Architecture: aarch64
+Installed-Size: 5356
+Maintainer: Henrik Grimler @Grimler91
+Version: 2.5.13-1
+Homepage: https://scripts.sil.org/teckitdownloads
+Depends: teckit (= 2.5.13-1)
+Description: Static libraries for teckit
+Filename: ./teckit-static_2.5.13-1_aarch64.deb
+Size: 343668
+MD5sum: 1fee7a7e459ccb0ec04b7d5330eda9f2
+SHA1: 279f21e22e1735341bf4d1dc4ef080de84ea7724
+SHA256: d0432baceddac9071f17dd093594957181c8adc045e031a52dac4b57eaae9ec1
+
+Package: teckit
+Architecture: aarch64
+Installed-Size: 3328
+Maintainer: Henrik Grimler @Grimler91
+Version: 2.5.13-1
+Homepage: https://scripts.sil.org/teckitdownloads
+Breaks: teckit-dev
+Depends: libc++, zlib
+Replaces: teckit-dev
+Description: TECkit is a library for encoding conversion
+Filename: ./teckit_2.5.13-1_aarch64.deb
+Size: 488752
+MD5sum: 77ff692642c7322cb45225d81bc2386e
+SHA1: 8698127999b7f162463bd5d293220e9f9a280af0
+SHA256: d03cef50575e91bdbdbd7b4394a56e41ac6e3f9515952b3e1f9ca4c0ca8a22fe
+
+Package: tectonic
+Architecture: aarch64
+Installed-Size: 16708
+Maintainer: @termux
+Version: 0.17.0-2
+Homepage: https://tectonic-typesetting.github.io/
+Depends: fontconfig, freetype, harfbuzz, libc++, libgraphite, libicu, libpng, openssl, zlib
+Description: A modernized, complete, self-contained TeX/LaTeX engine
+Filename: ./tectonic_0.17.0-2_aarch64.deb
+Size: 4140148
+MD5sum: e2cc9cc5abd4c7ad34b72bd5f01713de
+SHA1: 93a2853c99eb3327cfe7c4540b871510dedb3492
+SHA256: 9a4a791362f61a5d55a9eca3850fb0d62d7ec5a4d07297e90ebdffb2a20906ef
+
+Package: teleport-tsh
+Architecture: aarch64
+Installed-Size: 130368
+Maintainer: @termux
+Version: 18.10.0-3
+Homepage: https://github.com/gravitational/teleport
+Conflicts: etsh
+Description: Secure Access for Developers that doesn't get in the way
+Filename: ./teleport-tsh_18.10.0-3_aarch64.deb
+Size: 22342492
+MD5sum: 9327b57d1af5d6168704deb1fd766652
+SHA1: 1c496e9bd6d6a13ac347c5d40d35c411614b017e
+SHA256: c7f93291b316e505aa5d1bdd592973bd57c8bd7dba850240bc5e652dd6eff5e4
+
+Package: television
+Architecture: aarch64
+Installed-Size: 7368
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.15.9-1
+Homepage: https://github.com/alexpasmantier/television
+Description: A very fast, portable and hackable fuzzy finder
+Filename: ./television_0.15.9-1_aarch64.deb
+Size: 2368036
+MD5sum: df3a5a45e6a24457a07c916e1aea5efb
+SHA1: 1e978bc1c1dcda0c6b9dd8e8631369fafb260dff
+SHA256: a405895cf5867001deb3b8d7b74f1f4a4a35b4dfed00e35030199c7e2c6f0d90
+
+Package: tere
+Architecture: aarch64
+Installed-Size: 2364
+Maintainer: @termux
+Version: 1.6.0-2
+Homepage: https://github.com/mgunyho/tere
+Description: Terminal file explorer written in rust
+Filename: ./tere_1.6.0-2_aarch64.deb
+Size: 706740
+MD5sum: 130e4c6df1852289f73cb1aee2172b50
+SHA1: ce0ec6d4c1596640e7a23ea7ef3c0d36ee4a40d6
+SHA256: da24ce0776baef2b97e9bd287d715fe9a1926db49aca1a874001225e4888f26d
