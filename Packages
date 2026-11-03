@@ -837,6 +837,143 @@ MD5sum: 9ecd374b8ba8df4103e8d997d155b58f
 SHA1: 7f9d7b36a01eac03468b8419c260d752e3247a08
 SHA256: 82afe4bb6e8c282d6029bbb8c831bb7ea0c79ebb192dcd509a2b034a750c80e6
 
+Package: stag
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 1.0.0-4
+Homepage: https://github.com/seenaburns/stag
+Depends: ncurses
+Description: Streaming bar graphs. For stats and stuff.
+Filename: ./stag_1.0.0-4_aarch64.deb
+Size: 6776
+MD5sum: f2a527248bf062ef0834f7167b16618e
+SHA1: cc8d71b0299f77c219469c72942567774b4a4fe6
+SHA256: d051fc3da422802e78fc41a83aa715c89f8bc88f1c3f8169d5b73e9e9fedc6a7
+
+Package: starship
+Architecture: aarch64
+Installed-Size: 9448
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 1.27.0-1
+Homepage: https://starship.rs
+Suggests: nerdfix, taplo
+Description: A minimal, blazing fast, and extremely customizable prompt for any shell
+Filename: ./starship_1.27.0-1_aarch64.deb
+Size: 2744296
+MD5sum: e88e059f4083223c1210307aa268fc75
+SHA1: b1825a9e64fa06a79b8531b17fa8d033e0f03559
+SHA256: 35f99fc7663a361e7395e5577427363f63f832581485ef0cfa7ccc663db1bda7
+
+Package: stb
+Architecture: aarch64
+Installed-Size: 1992
+Maintainer: @termux
+Version: 0.0.0+g31c1ad37-1
+Homepage: https://github.com/nothings/stb
+Description: Single-file public domain (or MIT licensed) libraries for C/C++
+Filename: ./stb_0.0.0+g31c1ad37-1_aarch64.deb
+Size: 347656
+MD5sum: c857747ee0c1e6e805b9fd697c2d60ad
+SHA1: 4015938e62b4a22237d1afb8e7f714125cc06bea
+SHA256: 85b76c43f90c3e77f1773847d98bf4130e6a3398d56c9a0b6423fade0f6cf95e
+
+Package: stdman
+Architecture: all
+Installed-Size: 23104
+Maintainer: @termux
+Version: 2024.07.05-1
+Homepage: https://github.com/jeaye/stdman
+Depends: mandoc
+Description: Formatted C++23 stdlib man pages (cppreference)
+Filename: ./stdman_2024.07.05-1_all.deb
+Size: 4801180
+MD5sum: e936f5b99b4d8986a8490c5dc412420e
+SHA1: 9578c0ae555dd0536091f0256d73796e41cb5b77
+SHA256: a6bd778ba9d4040950191ef14734117bfa0c9db00bc17740dd8eb17a0d63436a
+
+Package: stdoutisatty
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @flosnvjx
+Version: 1.0-2
+Homepage: https://github.com/lilydjwg/stdoutisatty
+Description: Patch the isatty() calls for colored output in pipeline
+Filename: ./stdoutisatty_1.0-2_aarch64.deb
+Size: 4864
+MD5sum: fc94ed45b6c462e082ec6c388e5e291c
+SHA1: 7eefc6cc2ed052cf24507384bfbce150831c46ac
+SHA256: 030fbb032628e635c3615370998bc2e6ba1eb26ac3e0893feaf8b4b0815a18d0
+
+Package: stduuid
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.2.3-2
+Homepage: https://github.com/mariusbancila/stduuid
+Description: C++17 cross-platform single-header library implementation for universally unique identifiers
+Filename: ./stduuid_1.2.3-2_aarch64.deb
+Size: 10004
+MD5sum: 260722c7db59e2237da319e35f69dd87
+SHA1: 71d8a755877f2a7c9e7b069f0f9e6e9fc86c6fd9
+SHA256: 35e81788e5934dcf3931e9b43d171e0db0b6da7836a1aa5f52b3804d821f2c6f
+
+Package: steghide
+Architecture: aarch64
+Installed-Size: 440
+Maintainer: @termux
+Version: 0.5.1-9
+Homepage: https://steghide.sourceforge.net/
+Depends: libc++, libjpeg-turbo, libmcrypt, libmhash, zlib
+Description: Embeds a message in a file by replacing some of the least significant bits
+Filename: ./steghide_0.5.1-9_aarch64.deb
+Size: 126200
+MD5sum: 20060aeda8c60b00f225a1fda386d6da
+SHA1: 478f60e87915a868de1895b4c48cad782f06c8cf
+SHA256: 1b2075c67080bfdfb67fbac7ec35b5ddd6d89048f4fed326bfea69725f050745
+
+Package: step-cli
+Architecture: aarch64
+Installed-Size: 40664
+Maintainer: @termux
+Version: 0.31.0-2
+Homepage: https://smallstep.com/cli
+Depends: termux-tools
+Description: An easy-to-use CLI tool for building, operating, and automating Public Key Infrastructure (PKI) systems and workflows
+Filename: ./step-cli_0.31.0-2_aarch64.deb
+Size: 9231840
+MD5sum: 6ef680d72e6acbeb401ad5d6a1c77310
+SHA1: 398d93f9946d3617a396b327b0ffd1e291e8fda3
+SHA256: d0ad735ee9c4c9d043d1d8b67c795f817052bd4bc7b1500dcf824647c2550d62
+
+Package: stoken-static
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 0.93-4
+Homepage: https://github.com/cernekee/stoken
+Depends: stoken (= 0.93-4)
+Description: Static libraries for stoken
+Filename: ./stoken-static_0.93-4_aarch64.deb
+Size: 21280
+MD5sum: 1be6bc739625e70f1c3bda6d6805480c
+SHA1: dac3a91f0ef9a33aed8125833b07f437b40fed87
+SHA256: 2d7bc17a3f021583d78aafb95a285ed3912f5a55016474180c6a6e9b6326b90e
+
+Package: stoken
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: @termux
+Version: 0.93-4
+Homepage: https://github.com/cernekee/stoken
+Depends: libnettle, libxml2
+Description: Software Token for Linux/UNIX
+Filename: ./stoken_0.93-4_aarch64.deb
+Size: 39296
+MD5sum: 22de5f2931f96d6ee3513fd9ba3230e6
+SHA1: 4d7dd44135ffd8705d3dbe21f66b18da05af33a2
+SHA256: cc372052e11dc53ed17ce8829162d6c6f31605184efe4062f507b827d3557616
+
 Package: stone
 Architecture: aarch64
 Installed-Size: 160
