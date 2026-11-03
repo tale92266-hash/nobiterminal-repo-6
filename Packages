@@ -124,6 +124,74 @@ MD5sum: 60c7898ff8b9c6f224bdba51c2ea95ea
 SHA1: 7ca779ee0d13e8aba69a6a56ace987ddfe05bbe9
 SHA256: ae6cca8f21f883235589a5a643774d913942f699c6dfd2ba7639b5f4ab99ec05
 
+Package: sabnzbd
+Architecture: all
+Installed-Size: 8644
+Maintainer: @termux
+Version: 5.1.3-1
+Homepage: https://sabnzbd.org/
+Depends: python, python-cryptography, python-sabyenc3, termux-tools, par2, unrar, 7zip, unzip
+Description: Fully automated Usenet Binary Downloader
+Filename: ./sabnzbd_5.1.3-1_all.deb
+Size: 1152628
+MD5sum: fe158afae4630d019013c4e784501627
+SHA1: 22c1f41bffcdb58402a079a34eb4a41bc25318ba
+SHA256: 31a0a7b02932617344e1a1c9049a33a0d0a94ad0455fa3426379beda241533cc
+
+Package: scrub
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 2.6.1-3
+Homepage: https://github.com/chaos/scrub
+Description: Iteratively writes patterns on files or disk devices to make retreiving the data more difficult
+Filename: ./scrub_2.6.1-3_aarch64.deb
+Size: 20124
+MD5sum: c5f452090232b98ba70f6429cbca650b
+SHA1: b34ade0ecc26e8d8122791bdb9feff36f77a589c
+SHA256: bd0d6b50da0c48ec70475c5ed8a3f8385611786e26a625f0e7ae6b55c56e7d5c
+
+Package: scrypt
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.3.3-2
+Homepage: https://www.tarsnap.com/scrypt.html
+Depends: openssl
+Description: scrypt KDF library and file encryption tool
+Filename: ./scrypt_1.3.3-2_aarch64.deb
+Size: 24468
+MD5sum: 170d27557690e110352a48e8bed2eb4f
+SHA1: b2271743ba9ac640a93a85046b1de1a8f9c4e956
+SHA256: 23e1bba7935481163f8741a7506385cc9c45f590bc5593ccc3e88fa68f0fa47a
+
+Package: sd
+Architecture: aarch64
+Installed-Size: 2164
+Maintainer: @termux
+Version: 1.1.0-1
+Homepage: https://github.com/chmln/sd
+Description: An intuitive find & replace CLI
+Filename: ./sd_1.1.0-1_aarch64.deb
+Size: 618664
+MD5sum: 6efcf1468a9999d8e2a9a1b5399f4a77
+SHA1: 93b56b7cb64f39fa18659b446cab315b55edeec7
+SHA256: a29c7c5489f4bc332f31d9dec55d7d9491fa3f81173abc2967e441bc2021c9b0
+
+Package: sdcv
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 0.5.5-3
+Homepage: http://dushistov.github.io/sdcv/
+Depends: glib, libc++, readline, zlib
+Description: StarDict Console Version
+Filename: ./sdcv_0.5.5-3_aarch64.deb
+Size: 53176
+MD5sum: fe581dd07a42ac5d21d7acd37dd30eca
+SHA1: f429e37bc0992969fbb49596f18e758209753a8e
+SHA256: 0f4c1e7ebfd2d5b34022d6dbd5eefb86928a3fe549dbbd58d7bb3d0bcffa47cf
+
 Package: sfeed
 Architecture: aarch64
 Installed-Size: 448
