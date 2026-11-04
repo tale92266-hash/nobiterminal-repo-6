@@ -2410,6 +2410,128 @@ MD5sum: 606a87e41ba125f8ad24160ed51110a9
 SHA1: c4abd8a82080426b8fa6b9ef7024f46028bdc3ab
 SHA256: 86745295235c56a59ac554ee07ce197ee9bb55a8fe5953dca3e3ac2433e1ec2f
 
+Package: typstfmt
+Architecture: aarch64
+Installed-Size: 2676
+Maintainer: @termux
+Version: 0.2.10-2
+Homepage: https://github.com/astrale-sharp/typstfmt
+Description: basic formatter for the Typst language
+Filename: ./typstfmt_0.2.10-2_aarch64.deb
+Size: 711376
+MD5sum: 4e0cf470300a6a95fb8a6f7087cd58bd
+SHA1: 0ce4c2a13fb49931c8f581af0d90239c283a4743
+SHA256: 7a3bceb8f8d70d9a12cb15c07411902b43fc2ef2798094f0a9c3bf9489c142fa
+
+Package: udftools
+Architecture: aarch64
+Installed-Size: 436
+Maintainer: @termux
+Version: 2.3-2
+Homepage: https://github.com/pali/udftools
+Depends: readline
+Description: Linux tools for UDF filesystems and DVD/CD-R(W) drives
+Filename: ./udftools_2.3-2_aarch64.deb
+Size: 109012
+MD5sum: 562beb33898d001d3e335932ac208e27
+SHA1: 8241d62c1766ef0d668040f7e9b5756de917c174
+SHA256: 05a74cfdbdb9226a3cda8e16464361cdbfbdf3890bacc2e03b7d41fba084bcd2
+
+Package: udocker
+Architecture: all
+Installed-Size: 652
+Maintainer: @termux
+Version: 1.3.17-6
+Homepage: https://indigo-dc.github.io/udocker
+Depends: curl, proot, python, resolv-conf
+Description: A basic user tool to execute simple docker containers in batch or interactive systems without root privileges.
+Filename: ./udocker_1.3.17-6_all.deb
+Size: 84024
+MD5sum: e616f366953e974de7c232fa04d0ca92
+SHA1: 8ce9ea06e08e96c8ba88be3f1a74fdb8dfde4826
+SHA256: d0147de886150ece16e421dbd1874772a1677361c86af33f6b3dc8e9f5466e5c
+
+Package: uftrace
+Architecture: aarch64
+Installed-Size: 2004
+Maintainer: @termux
+Version: 0.20-1
+Homepage: https://uftrace.github.io/slide
+Depends: capstone, libandroid-execinfo, libandroid-glob, libandroid-spawn, libc++, libdw, libelf, luajit, ncurses, python
+Description: Function (graph) tracer for user-space
+Filename: ./uftrace_0.20-1_aarch64.deb
+Size: 390684
+MD5sum: daebe4620dc6dccf428ae6a2e66e36f5
+SHA1: 86adac5e6f82d0e3b8c0ef3ec42031e0ac11b777
+SHA256: a2c9ecaa663127b4b7b74ea9cff67dd831a5a2c65a707accf68707268d890ee9
+
+Package: ugrep
+Architecture: aarch64
+Installed-Size: 3116
+Maintainer: @termux
+Version: 7.8.5-1
+Homepage: https://github.com/Genivia/ugrep
+Depends: brotli, libbz2, libc++, liblz4, liblzma, pcre2, zlib, zstd
+Description: A faster, user-friendly and compatible grep replacement
+Filename: ./ugrep_7.8.5-1_aarch64.deb
+Size: 352896
+MD5sum: 1adaf4dcaf44f3ad33c74936b903035e
+SHA1: 389fb1ca8d18e7a2c5e784e9f937d3bbe54ccfb6
+SHA256: 19a7b669e1ae2c1dd5c19c04b8a2c93e6a5e34d1859c1f87fa432fc64adb5393
+
+Package: unfs3
+Architecture: aarch64
+Installed-Size: 216
+Maintainer: @termux
+Version: 0.11.0-1
+Homepage: https://unfs3.github.io/
+Depends: libtirpc
+Description: User-space implementation of the NFSv3 server specification
+Filename: ./unfs3_0.11.0-1_aarch64.deb
+Size: 48040
+MD5sum: 484d671df98ac727be7b53b8f13dbc75
+SHA1: 40b709101eb79b65115a4ff19d5b37e1e4a5a824
+SHA256: 600b5a84d41c16ec01cdd9b7a51ec4002d6be033a1e86dcf884c6e22563ddf83
+
+Package: unicode-cldr
+Architecture: all
+Installed-Size: 296928
+Maintainer: @termux
+Version: 49-1
+Homepage: http://cldr.unicode.org/
+Description: Unicode Common Locale Data Repository
+Filename: ./unicode-cldr_49-1_all.deb
+Size: 21218208
+MD5sum: afc898531e0310e6bc97c0bff64cc298
+SHA1: de60c98eb9f1be62d349b85ce7a4ebf03cb94f63
+SHA256: 1085cd3e3c87ca73dec893fc7340a1a05b745f5a47d2a426f254a461309eb05a
+
+Package: unicode-data
+Architecture: all
+Installed-Size: 47040
+Maintainer: @termux
+Version: 18.0.0-2
+Homepage: https://unicode.org/ucd/
+Description: The Unicode Character Database (UCD)
+Filename: ./unicode-data_18.0.0-2_all.deb
+Size: 10865416
+MD5sum: 62940b69f003c4c5e934b3810a1f1fa8
+SHA1: fe0a8c10d8464975f2dc7d21ea85f02bcff046b7
+SHA256: 2720a3b91551a35f80f69fd845ef3d9b8fba2b90788afc26511e73a75f499b62
+
+Package: unicode-emoji
+Architecture: all
+Installed-Size: 1180
+Maintainer: @termux
+Version: 18.0.0-1
+Homepage: https://unicode.org/emoji/
+Description: Unicode Emoji Data Files
+Filename: ./unicode-emoji_18.0.0-1_all.deb
+Size: 75108
+MD5sum: 9b008031f8c8248ba7717f470ecacf4c
+SHA1: c2fb94b396ef78eeb9fc8646b1ca32e06ea8b825
+SHA256: c07293dd12ade74974c3985ea15ce8977a4248c3338162b674042b222c0b8f06
+
 Package: unicorn-static
 Architecture: aarch64
 Installed-Size: 29192
@@ -2577,3 +2699,404 @@ Size: 81296
 MD5sum: 5f6262efa5d57348f228da2b00549455
 SHA1: 9b09ef0c65697e392f818909df346f266e8771da
 SHA256: 96ade79f62f8f74e057e765cebe1eba51c5b075753c3cac4263560460eaa7c6e
+
+Package: usql
+Architecture: aarch64
+Installed-Size: 159556
+Maintainer: @flipee
+Version: 0.21.6-2
+Homepage: https://github.com/xo/usql
+Description: A universal command-line interface for SQL databases
+Filename: ./usql_0.21.6-2_aarch64.deb
+Size: 28441452
+MD5sum: 566b8b1c3bc19ce617879a61062b89f9
+SHA1: a7ec328edf8fd9cfcf06537de48db8c30af84783
+SHA256: b4a04e6e776d184f815d7fb13fcba9102c5e3c1fed399f2a9a5a388738842ba1
+
+Package: uthash
+Architecture: all
+Installed-Size: 252
+Maintainer: @termux
+Version: 2.4.0-1
+Homepage: https://troydhanson.github.io/uthash/
+Description: C preprocessor implementations of a hash table and a linked list
+Filename: ./uthash_2.4.0-1_all.deb
+Size: 20200
+MD5sum: 8f85d5bd625b5612f4218c111935231a
+SHA1: eaa6b0e60365e686888084b51e7e77ac73d7be0b
+SHA256: ecba254ec21cde13b464ec6a459dff303edfb0f6507c47f37c45ff1279f256d2
+
+Package: uucp
+Architecture: aarch64
+Installed-Size: 1528
+Maintainer: @termux
+Version: 1.07-3
+Homepage: https://www.airs.com/ian/uucp.html
+Description: The standard UUCP package of the Free Software Foundation
+Filename: ./uucp_1.07-3_aarch64.deb
+Size: 316660
+MD5sum: c8b93e3f33c4db998095f56ebd449c0b
+SHA1: eaa7c1d8f7d72c81c931a3f919c75f2c7e59c939
+SHA256: 80026a1d219ed1abff295c6877b666b532be2b2b64e903bea00937d7fe3dbb4b
+
+Package: uutils-coreutils
+Architecture: aarch64
+Installed-Size: 13548
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.12.0-1
+Homepage: https://uutils.org/
+Description: Cross-platform Rust rewrite of the GNU coreutils
+Filename: ./uutils-coreutils_0.12.0-1_aarch64.deb
+Size: 3638048
+MD5sum: 416aeb835a0c304709860dedfad3cce9
+SHA1: 1c05f084ee97e18c4edd151487ac2b3cdd0f606e
+SHA256: 863ecd45c95355f793602a70b9754ece3fa363ce2fc5f87373f69343f850bfff
+
+Package: uwsgi
+Architecture: aarch64
+Installed-Size: 1216
+Maintainer: @termux
+Version: 2.0.31-3
+Homepage: https://projects.unbit.it/uwsgi
+Depends: libandroid-glob, libandroid-sysv-semaphore, libandroid-utimes, libcap, libcrypt, libjansson, libuuid, libxml2, openssl, pcre2, python
+Description: uWSGI application server container
+Filename: ./uwsgi_2.0.31-3_aarch64.deb
+Size: 383888
+MD5sum: 3c4fb60ad7d0221b61ec1043751f0261
+SHA1: 3a20a03eb9fcf477f0b1105a491bb213cce6fd94
+SHA256: a249788c25695f4f9d9f410ed0027fbf4f7cf30cb04a9b484c271723793e2f33
+
+Package: v2ray
+Architecture: aarch64
+Installed-Size: 65064
+Maintainer: @termux
+Version: 5.53.0-2
+Homepage: https://www.v2fly.org/
+Description: A platform for building proxies to bypass network restrictions
+Filename: ./v2ray_5.53.0-2_aarch64.deb
+Size: 11612632
+MD5sum: fd01b011a394e148121ed674da97d4ff
+SHA1: f74cf05ec4b8772c23bf8947569f1dd86cbabc3e
+SHA256: ccc5073c20de1376a4672ccda0e0f1e1a9388ea61d005187a9ae593c8167b818
+
+Package: valac-static
+Architecture: aarch64
+Installed-Size: 6472
+Maintainer: @termux
+Version: 0.56.19-1
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: valac (= 0.56.19-1)
+Description: Static libraries for valac
+Filename: ./valac-static_0.56.19-1_aarch64.deb
+Size: 942052
+MD5sum: ccf22a9530d6c503f887ed874c837e4a
+SHA1: f223031e0912f8dd4ac03eef3c82027358cade1b
+SHA256: 05227b4b5a5c4f0946ec53964b263ffae43c100cd0541d942fc1de9b65a84c38
+
+Package: valac
+Architecture: aarch64
+Installed-Size: 13360
+Maintainer: @termux
+Version: 0.56.19-1
+Homepage: https://wiki.gnome.org/Projects/Vala
+Breaks: valac-dev
+Depends: glib
+Recommends: clang, pkg-config
+Replaces: valac-dev
+Description: C# like language for the GObject system
+Filename: ./valac_0.56.19-1_aarch64.deb
+Size: 1664112
+MD5sum: b25026a21dfe0624ec335546d9ace837
+SHA1: dd6a15f9ce370227448b22a947c819c50ecb5fef
+SHA256: 7da10a86214eef0f1a4ab18f481013c0cd3ef8bd6a5329748500c7af090a007f
+
+Package: valadoc-static
+Architecture: aarch64
+Installed-Size: 2704
+Maintainer: @termux
+Version: 0.56.19-1
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: valadoc, valac (= 0.56.19-1)
+Description: Static libraries for valadoc
+Filename: ./valadoc-static_0.56.19-1_aarch64.deb
+Size: 369096
+MD5sum: 299f1d8af683af5ca5d5641ebac1614c
+SHA1: 2eb79e6efa9567b51e998264f7067ee18f0e57df
+SHA256: 380546f51b7fd74fb9cdb979e0c9d6e80bd76ff8558c3103809948b5dc373797
+
+Package: valadoc
+Architecture: aarch64
+Installed-Size: 1932
+Maintainer: @termux
+Version: 0.56.19-1
+Homepage: https://wiki.gnome.org/Projects/Vala
+Depends: graphviz, valac (= 0.56.19-1)
+Description: API documentation generator for vala
+Filename: ./valadoc_0.56.19-1_aarch64.deb
+Size: 344100
+MD5sum: 085ff23989580700e7f814623016fc5e
+SHA1: 4c5a03c170712d712c91fef7a0b5af953958acaf
+SHA256: 387a9b68bcd66f26164b7432c43c04671ec81615066615c22ac9aefe35a13f17
+
+Package: valkey-static
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: @termux
+Version: 9.1.3-1
+Homepage: https://valkey.io/
+Depends: valkey (= 9.1.3-1)
+Description: Static libraries for valkey
+Filename: ./valkey-static_9.1.3-1_aarch64.deb
+Size: 82088
+MD5sum: 8ffcb611f704c370500a5405b929c6f5
+SHA1: 252037d8b78bc1ba3b03df6d8817d7ae8e5c9979
+SHA256: c4961d4595a7ae12076aa1e594b62fdd0dda7b1f73f42f04033f5a276ad2e9ce
+
+Package: valkey
+Architecture: aarch64
+Installed-Size: 4500
+Maintainer: @termux
+Version: 9.1.3-1
+Homepage: https://valkey.io/
+Breaks: redis
+Depends: libandroid-execinfo, libandroid-glob
+Conflicts: redis
+Provides: redis
+Description: In-memory data structure store used as a database, cache and message broker
+Filename: ./valkey_9.1.3-1_aarch64.deb
+Size: 1146212
+MD5sum: e41c9120cb89da55fcc9344b70636f37
+SHA1: d8d72854f2d94f7878cf4c551b936c900a9c454b
+SHA256: 082b6f4b6bd45f8c56b29fb3e9d182d2cac2fbe7e55b1b0bbdde23cd199c8621
+
+Package: vgmtools
+Architecture: aarch64
+Installed-Size: 744
+Maintainer: @termux
+Version: 2023.01.27-2
+Homepage: https://github.com/vgmrips/vgmtools
+Depends: libandroid-glob, libc++, zlib
+Description: A collection of tools for the VGM file format
+Filename: ./vgmtools_2023.01.27-2_aarch64.deb
+Size: 177520
+MD5sum: d3a08f285321c81275462319a268ec86
+SHA1: f22af57db96225b92b833969ab079421fa4a2784
+SHA256: 10789bf9c48fdef2eab222c00d6d855b040938896673ac4773d33de3775093e7
+
+Package: viddy
+Architecture: aarch64
+Installed-Size: 7172
+Maintainer: @termux
+Version: 1.3.1-1
+Homepage: https://github.com/sachaos/viddy
+Description: A modern watch command
+Filename: ./viddy_1.3.1-1_aarch64.deb
+Size: 2029028
+MD5sum: ecc1f260be2770d8415ecb240bae16d2
+SHA1: 35d8c208a9cf76c0e236e20b1b769692d72bf81c
+SHA256: a06cf27123449bf6f79d8401a0f02daa7c8be0601663e7b49bb892d0a13c458e
+
+Package: vifm
+Architecture: aarch64
+Installed-Size: 3532
+Maintainer: @termux
+Version: 0.14.5-1
+Homepage: https://vifm.info/
+Depends: libmagic, ncurses
+Description: File manager with vi like keybindings
+Filename: ./vifm_0.14.5-1_aarch64.deb
+Size: 850372
+MD5sum: 95f89e506cb08422d3846126237c1666
+SHA1: fc0bc27412be08974ac37c17a4f7e5a19a03bde6
+SHA256: fc7f69d0d38a11411e77474798eb0efdea42c3efb9c78172a329f9085c5b570b
+
+Package: vile
+Architecture: aarch64
+Installed-Size: 5272
+Maintainer: @termux
+Version: 9.8z-2
+Homepage: https://invisible-island.net/vile/
+Depends: ncurses
+Description: VI Like Emacs - vi work-alike
+Filename: ./vile_9.8z-2_aarch64.deb
+Size: 882188
+MD5sum: fb1f45da973a02a2aaa243a3f8545e45
+SHA1: d94d9534bcef2fffcd7aa21e63466026bc512ef5
+SHA256: 5040edd37a5bb7ecac7e95c913d16a5866a01013a5e44d4f6f1c33219b679489
+
+Package: viu
+Architecture: aarch64
+Installed-Size: 3284
+Maintainer: @termux
+Version: 1.6.1-1
+Homepage: https://github.com/atanunq/viu
+Description: Terminal image viewer with native support for iTerm and Kitty
+Filename: ./viu_1.6.1-1_aarch64.deb
+Size: 989980
+MD5sum: 8a0a90b5d440056d2d8518ae1085fbc7
+SHA1: a7e6ed086117ec08785ee56f7858ca0ea011dfd8
+SHA256: d1bcd64ecad39d3a19b0f1d4be087843c6b0e84cd78165930241dfc6b579f4e6
+
+Package: vivid
+Architecture: aarch64
+Installed-Size: 888
+Maintainer: @termux
+Version: 0.11.1-1
+Homepage: https://github.com/sharkdp/vivid
+Description: A themeable LS_COLORS generator with a rich filetype datebase
+Filename: ./vivid_0.11.1-1_aarch64.deb
+Size: 316752
+MD5sum: 2edfa2d561bff94051567d95538096f0
+SHA1: 63092fe40346352a345526b74bebcd482aa7cccb
+SHA256: 87ceefb5d12e3cc509a68f9d57c21b1c524d3c92084dd724c0679cb40380b45a
+
+Package: vobsub2srt
+Architecture: aarch64
+Installed-Size: 144
+Maintainer: @termux
+Version: 2017.12.18-5
+Homepage: https://github.com/ruediger/VobSub2SRT
+Depends: libc++, tesseract
+Description: A simple command line program to convert .idx / .sub subtitles into .srt text subtitles by using OCR
+Filename: ./vobsub2srt_2017.12.18-5_aarch64.deb
+Size: 38728
+MD5sum: e92573db929d60b35412fc7121af4909
+SHA1: 300c06fc4ff870524c72d2034003232771522aee
+SHA256: 2486e9be6d62abefd891ea8cf23af57b600f357788f1322de5252d1daa48e912
+
+Package: vorbis-tools
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: @termux
+Version: 1.4.3-2
+Homepage: https://github.com/xiph/vorbis-tools
+Depends: libiconv, libvorbis, libflac, libogg
+Description: Ogg Vorbis tools
+Filename: ./vorbis-tools_1.4.3-2_aarch64.deb
+Size: 63264
+MD5sum: a09ddff2485f5c14950a7df4064ca953
+SHA1: 1ce5b532bfbf6efa8e084e15d9a7db9a3189967e
+SHA256: 1b6b34b4bdbf9af3e782450688279e6a4090bb9958debe6ca99c8ad814519037
+
+Package: vtm
+Architecture: aarch64
+Installed-Size: 7660
+Maintainer: @termux
+Version: 2026.10.12-1
+Homepage: https://github.com/directvt/vtm
+Depends: freetype, harfbuzz, libc++, lua54, lunasvg
+Description: Terminal multiplexer with TUI window manager and multi-party session sharing
+Filename: ./vtm_2026.10.12-1_aarch64.deb
+Size: 1527604
+MD5sum: 509267ef22650527c9e949b7b4c45aa0
+SHA1: 7af9ac3e6b0a12937785b0106600228cc5fc8f58
+SHA256: 5665575b8f89b24fd77602dec4cff42a83f29434fe92f0a0e9f3f30b352d3f98
+
+Package: vttest
+Architecture: aarch64
+Installed-Size: 340
+Maintainer: @termux
+Version: 20251205-1
+Homepage: https://invisible-island.net/vttest/
+Description: Program for testing the VT100 compatibility of terminal emulators
+Filename: ./vttest_20251205-1_aarch64.deb
+Size: 92528
+MD5sum: 69fe5d42128f7825d3675ad2020e0a49
+SHA1: 54f3ae09973cce0b4e910ae786c9113187dbc9d6
+SHA256: 4464e9da286c37c65b2e6e9d5a35d5217aee47f3ccdb21756489dff0e31b0087
+
+Package: vulkan-extension-layer
+Architecture: aarch64
+Installed-Size: 3412
+Maintainer: @termux
+Version: 1.4.363-1
+Homepage: https://github.com/KhronosGroup/Vulkan-ExtensionLayer
+Depends: libc++, vulkan-loader
+Description: Vulkan Extension Layer
+Filename: ./vulkan-extension-layer_1.4.363-1_aarch64.deb
+Size: 448964
+MD5sum: 8e410d3b6a5afdc825a85a2b735d6bcb
+SHA1: 3bad7b84cd286c1814d5ada40b7c5608053c07b9
+SHA256: 4e571a21c2dab6239abdc5ba5b441014314e1ddc20e67148a733e5a1519c5507
+
+Package: vulkan-loader-android
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 30-1
+Homepage: https://source.android.com/devices/graphics/arch-vulkan
+Description: Vulkan Loader for Android
+Filename: ./vulkan-loader-android_30-1_aarch64.deb
+Size: 5040
+MD5sum: 01b7cfdd5c251f21f9708d7e90e38a18
+SHA1: b53edd013e5a41900c08317c5f92d4d746eb9815
+SHA256: 806899445e5b6b03dd8f729ca093050021f6ca1a3d1786b1014620f0f82c868b
+
+Package: wabt
+Architecture: aarch64
+Installed-Size: 19112
+Maintainer: @termux
+Version: 1.0.42-1
+Homepage: https://github.com/WebAssembly/wabt
+Depends: libc++
+Description: The WebAssembly Binary Toolkit
+Filename: ./wabt_1.0.42-1_aarch64.deb
+Size: 1407848
+MD5sum: 1b2e57216d1a863f7bac10f4f5b537de
+SHA1: 57c0d66546665951678111173de7d9ae04ee7965
+SHA256: 819c0be9780d85b48b72c80a4285b81766aba1b39617da3901d8cd943342569a
+
+Package: wakatime-cli
+Architecture: aarch64
+Installed-Size: 22744
+Maintainer: @termux
+Version: 2.28.0-1
+Homepage: https://wakatime.com/plugins/
+Description: Command line interface used by all WakaTime text editor plugins
+Filename: ./wakatime-cli_2.28.0-1_aarch64.deb
+Size: 5869540
+MD5sum: 8a8ece6111088aeade0dc3c171e0e795
+SHA1: a2f9046b205aad974b58c5cc790d403bee41ce47
+SHA256: 2aaf8a1bbd9997f85a9ba6b43bf17f96e285dbe2982e472e75d1bda800550644
+
+Package: walk
+Architecture: aarch64
+Installed-Size: 10388
+Maintainer: @termux
+Version: 1.13.0-2
+Homepage: https://github.com/antonmedv/walk
+Breaks: llama (<< 1.4.0-2)
+Replaces: llama (<< 1.4.0-2)
+Description: A terminal file manager
+Filename: ./walk_1.13.0-2_aarch64.deb
+Size: 2462816
+MD5sum: 681d026fafd7c1917fb09003459e04ac
+SHA1: b5a0a16c44a43f44530d095a41fe17399f45ddba
+SHA256: 1465ee127f6fcfd65a270f7ff3296d4f92888365aa1ecaa3a9203defa2525781
+
+Package: wallust
+Architecture: aarch64
+Installed-Size: 6052
+Maintainer: @termux
+Version: 3.5.2-2
+Homepage: https://explosion-mental.codeberg.page/wallust
+Recommends: imagemagick
+Description: Generate colors from an image
+Filename: ./wallust_3.5.2-2_aarch64.deb
+Size: 1761156
+MD5sum: b82782fab8336608877eeb6fb8bba37c
+SHA1: 80a563d98a716c9cda892b3e6bd8935fa43e947f
+SHA256: 3609ace9ca3b81851dda291ef304c3148cfd2f64deecd348c85061b11368237a
+
+Package: wasm-component-ld
+Architecture: aarch64
+Installed-Size: 5568
+Maintainer: @termux
+Version: 0.5.31-1
+Homepage: https://github.com/bytecodealliance/wasm-component-ld
+Description: Command line linker for creating WebAssembly components
+Filename: ./wasm-component-ld_0.5.31-1_aarch64.deb
+Size: 1441364
+MD5sum: 602977dd4264d965378d4d87281d9c75
+SHA1: a4719882aea88b8f32b7adeed358525b7575d5ea
+SHA256: 378c2b9d75fa4c74ee5706bf9901ca6f8a8c9ee622c976e62263964e048be65d
