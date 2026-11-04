@@ -1518,6 +1518,62 @@ MD5sum: ff14aceebf1167ee19486a1e78c366ea
 SHA1: 2ddd81d35e8234df5bd80e5b5c1767122486f75e
 SHA256: 92211506c70864f399cca1235b27e29d367e40cddb57d317513400a26660d30b
 
+Package: termux-elf-cleaner
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 3.0.1-2
+Homepage: https://github.com/termux/termux-elf-cleaner
+Depends: libc++
+Description: Cleaner of ELF files for Android
+Filename: ./termux-elf-cleaner_3.0.1-2_aarch64.deb
+Size: 18036
+MD5sum: af1c593331da037f7473cce68cea3d91
+SHA1: ab2ab04259e2e2e116ac8bf30b9a0b68e195ce20
+SHA256: afdf92f236668c3784f704be3ad2be5d6b8f08f138b98344bfe173e69d54958c
+
+Package: termux-gui-bash
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @tareksander
+Version: 0.1.2-3
+Homepage: https://github.com/tareksander/termux-gui-bash
+Depends: jq
+Description: A bash library for Termux:GUI
+Filename: ./termux-gui-bash_0.1.2-3_aarch64.deb
+Size: 66936
+MD5sum: 6d76f0da87cce1242199a01d2d1c38df
+SHA1: ffffd46b9d52dd903bb8d61f4b23c834985ac309
+SHA256: bfdee46e33d9281d3b513b47035c040fb674d5a56ba0c746c715e7cb13fcf654
+
+Package: termux-gui-c
+Architecture: aarch64
+Installed-Size: 2104
+Maintainer: @tareksander
+Version: 0.1.3-10
+Homepage: https://github.com/tareksander/termux-gui-c-bindings
+Depends: abseil-cpp, libc++, libandroid-stub, libprotobuf
+Description: A C library for the Termux:GUI plugin
+Filename: ./termux-gui-c_0.1.3-10_aarch64.deb
+Size: 282812
+MD5sum: cab774066c32157cccf20b7300a7ad43
+SHA1: 073481a4a89c8f0bc53ab29233496cfe519e8e9b
+SHA256: e422b95bed49f59cca79c6e6cdea09705942881c5136684535dd29aa1b3ae1ed
+
+Package: termux-gui-package
+Architecture: all
+Installed-Size: 572
+Maintainer: @tareksander
+Version: 0.1.6-5
+Homepage: https://github.com/tareksander/termux-gui-package
+Depends: python, python-pip
+Description: A Termux package containing utilities for Termux:GUI
+Filename: ./termux-gui-package_0.1.6-5_all.deb
+Size: 361876
+MD5sum: 5706a7b2b0979f0c58acf0d8813f60f7
+SHA1: ee0dce4c84b971aa1f00a18e1d13ecdd7670e630
+SHA256: 0949506e307109e1a4480ebf0d4e8ecf50c4e856f1f1d24d8a244898e1449a54
+
 Package: tgpt
 Architecture: aarch64
 Installed-Size: 16892
