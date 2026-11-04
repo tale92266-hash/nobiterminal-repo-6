@@ -1474,6 +1474,46 @@ MD5sum: 130e4c6df1852289f73cb1aee2172b50
 SHA1: ce0ec6d4c1596640e7a23ea7ef3c0d36ee4a40d6
 SHA256: da24ce0776baef2b97e9bd287d715fe9a1926db49aca1a874001225e4888f26d
 
+Package: tinyproxy
+Architecture: aarch64
+Installed-Size: 220
+Maintainer: @termux
+Version: 1.11.3-1
+Homepage: https://tinyproxy.github.io/
+Description: Light-weight HTTP proxy daemon for POSIX operating systems
+Filename: ./tinyproxy_1.11.3-1_aarch64.deb
+Size: 45508
+MD5sum: b5003e994527ba5c8f1cfd1391cf4f0c
+SHA1: 65c76d39d0baa2701ed5a73e1780b3dc02cae123
+SHA256: 88465c66cbde544beb095b13d7a892180b80e978a1e9bf432dfdc1ca2fa89269
+
+Package: tinyscheme
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 1.42-3
+Homepage: https://tinyscheme.sourceforge.net/home.html
+Description: Very small scheme implementation
+Filename: ./tinyscheme_1.42-3_aarch64.deb
+Size: 32124
+MD5sum: 8d805f23aac0560a2c9cfc8f24081565
+SHA1: 6e40549d47c01ba9a355347b3815f0eabdcbc587
+SHA256: f42ce6f7ace3b6c478c39780b215bd54620c5decf6a2d616de095559ff345a17
+
+Package: tinysparql
+Architecture: aarch64
+Installed-Size: 2152
+Maintainer: @termux
+Version: 3.12.0-1
+Homepage: https://gnome.pages.gitlab.gnome.org/tinysparql
+Depends: libicu, dbus, pygobject, python, json-glib, libxml2, sqlite
+Description: Desktop-neutral metadata-based search framework
+Filename: ./tinysparql_3.12.0-1_aarch64.deb
+Size: 686980
+MD5sum: dd9d7a585a26072541027e667108f87d
+SHA1: feb126ba8bb7ceb6ea097e9899ddc0533ab741e0
+SHA256: 1686f0aa7ef3f4482a961986119d11805ea1ef42f65617e68110e21b8a792152
+
 Package: toilet
 Architecture: aarch64
 Installed-Size: 876
