@@ -3100,3 +3100,43 @@ Size: 1441364
 MD5sum: 602977dd4264d965378d4d87281d9c75
 SHA1: a4719882aea88b8f32b7adeed358525b7575d5ea
 SHA256: 378c2b9d75fa4c74ee5706bf9901ca6f8a8c9ee622c976e62263964e048be65d
+
+Package: wasmedge
+Architecture: aarch64
+Installed-Size: 4092
+Maintainer: @termux
+Version: 0.18.1-1
+Homepage: https://wasmedge.org/
+Depends: fmt, libc++, libspdlog
+Description: A lightweight, high-performance, and extensible WebAssembly runtime
+Filename: ./wasmedge_0.18.1-1_aarch64.deb
+Size: 621788
+MD5sum: 7e388bf97f3d6571c786a3fd95670234
+SHA1: ed5fc3c6148ded74825ed18fa88107386f1dc6e3
+SHA256: c48e3cf75d3c4af545637fbb8d0121ae6a46fe2ac77f120e21ce6fb33fce96e3
+
+Package: wasmtime
+Architecture: aarch64
+Installed-Size: 41404
+Maintainer: @termux
+Version: 50.0.1-1
+Homepage: https://wasmtime.dev/
+Description: A standalone runtime for WebAssembly
+Filename: ./wasmtime_50.0.1-1_aarch64.deb
+Size: 8428504
+MD5sum: 17dc32add6aa5cf557067a04074ffa4a
+SHA1: 3c815661aa43f3eeef1735f2e62c49c5094a2bb5
+SHA256: 801862c333476e35322e13f423fe2f90dee5405b23f4280a22000f3899a1918d
+
+Package: watchexec
+Architecture: aarch64
+Installed-Size: 8368
+Maintainer: @termux
+Version: 2.8.0-1
+Homepage: https://github.com/watchexec/watchexec
+Description: Executes commands in response to file modifications
+Filename: ./watchexec_2.8.0-1_aarch64.deb
+Size: 2496348
+MD5sum: d17ebf04e07e3094a1b4c13f6feda185
+SHA1: a758b11c1d725d1785a211c1f57403472d3ac7b8
+SHA256: eda434c50625ad86a9c8bdeb503b283318f9fb307104dcfb1b20d51381a3dca0
