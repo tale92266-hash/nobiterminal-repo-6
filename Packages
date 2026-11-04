@@ -1473,3 +1473,662 @@ Size: 706740
 MD5sum: 130e4c6df1852289f73cb1aee2172b50
 SHA1: ce0ec6d4c1596640e7a23ea7ef3c0d36ee4a40d6
 SHA256: da24ce0776baef2b97e9bd287d715fe9a1926db49aca1a874001225e4888f26d
+
+Package: toilet
+Architecture: aarch64
+Installed-Size: 876
+Maintainer: @termux
+Version: 0.3-4
+Homepage: http://caca.zoy.org/wiki/toilet
+Depends: libcaca
+Description: FIGlet-compatible display of large colourful characters in text mode
+Filename: ./toilet_0.3-4_aarch64.deb
+Size: 718988
+MD5sum: 5fb345de7358d36ad6ddd49a2dd5dbb5
+SHA1: 42fd0be8e2e0772999a64500d5b171b4251d411f
+SHA256: 85fa9e92e5bb8b44325724f3b0d8241c48fc5dfa81f724990c7e20b7f00b6777
+
+Package: tokei
+Architecture: aarch64
+Installed-Size: 4360
+Maintainer: @termux
+Version: 15.0.0-1
+Homepage: https://github.com/XAMPPRocky/tokei
+Description: A blazingly fast CLOC (Count Lines Of Code) program
+Filename: ./tokei_15.0.0-1_aarch64.deb
+Size: 1146916
+MD5sum: 9036730a0fb9092bacd14303bfefcf7b
+SHA1: 54e26ed08145106b77335729ecb9d95e2e36210f
+SHA256: 7f06781392a57ab0c9064c4cda99b2d232e0b4361e4cbe47f11572fc11cd8835
+
+Package: tome2
+Architecture: aarch64
+Installed-Size: 14924
+Maintainer: @termux
+Version: 2025.12.13-4
+Homepage: https://github.com/tome2/tome2
+Depends: boost, libc++, libx11, ncurses
+Description: An open world roguelike adventure set in middle earth
+Filename: ./tome2_2025.12.13-4_aarch64.deb
+Size: 1781004
+MD5sum: e9f474af347dec9d9d10685ca728e735
+SHA1: 3f6f5d5a0a445f1a6b5dd7e78065021b6220e442
+SHA256: 4548b7adc2d2d874ce474253e8193a9e20227efde362a3c4c2ca0ebf80814c2a
+
+Package: toml11
+Architecture: aarch64
+Installed-Size: 816
+Maintainer: @termux
+Version: 4.4.0-1
+Homepage: https://github.com/ToruNiina/toml11
+Description: toml11 is a C++11 (or later) header-only toml parser/encoder depending only on C++ standard library
+Filename: ./toml11_4.4.0-1_aarch64.deb
+Size: 73372
+MD5sum: c4382501898dfc2c66ad74b78ce04c09
+SHA1: 5e26c0eba6c4c38230c657726d35dc9cb17e48bd
+SHA256: fa0676eca0cfa451fae93e331d6c7cebc2109a1f49d194f682fa0a4589bb4fcd
+
+Package: tor
+Architecture: aarch64
+Installed-Size: 29196
+Maintainer: @termux
+Version: 0.4.9.15-1
+Homepage: https://www.torproject.org
+Depends: libevent, liblzma, openssl, resolv-conf, zlib
+Description: The Onion Router anonymizing overlay network
+Filename: ./tor_0.4.9.15-1_aarch64.deb
+Size: 3417072
+MD5sum: 816087edb3cc0a389f4d34a0ba118f8a
+SHA1: 7c834eff7c49e1e8023d91adc9014e9962ff409a
+SHA256: 71b4aa39ac7960e646785167dda042fb5168e87815e180f4d220fd5af829c516
+
+Package: torsocks-static
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 2.5.0-2
+Homepage: https://gitlab.torproject.org/tpo/core/torsocks
+Depends: torsocks (= 2.5.0-2)
+Description: Static libraries for torsocks
+Filename: ./torsocks-static_2.5.0-2_aarch64.deb
+Size: 33840
+MD5sum: dc41a9069212ec039017e152ee171b6d
+SHA1: 8278b3abe3ae4f68b42f1482052a26f328a740aa
+SHA256: 3b53fabdaec3685bc3a74293de104fe54f3a12c75b4b6db5d56e9d1573f3fe45
+
+Package: torsocks
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: @termux
+Version: 2.5.0-2
+Homepage: https://gitlab.torproject.org/tpo/core/torsocks
+Depends: tor
+Description: Wrapper to safely torify applications
+Filename: ./torsocks_2.5.0-2_aarch64.deb
+Size: 49812
+MD5sum: eea794e9e0bce636c617b3c93d99bdf4
+SHA1: 50a7456d10e03fc4b6b7891d5f49866646dfa667
+SHA256: fdcb490d8893d90899f727aaadf4802e29fd4f428ebd59dc819c12589b88b3b5
+
+Package: totem-pl-parser
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: @termux
+Version: 3.26.7-1
+Homepage: https://gitlab.gnome.org/GNOME/totem-pl-parser
+Depends: glib, libarchive, libgcrypt, libxml2
+Description: Simple GObject-based library to parse and save a host of playlist formats
+Filename: ./totem-pl-parser_3.26.7-1_aarch64.deb
+Size: 62876
+MD5sum: 5c49ec31c2bf6683949f464aeff69d47
+SHA1: e5184e799275b741d20999202d8c5faf64e4b325
+SHA256: d35be218d09e14d894f4282c6b4f9e1bb695ac68e5d197e79a462e39f95856a7
+
+Package: toxic
+Architecture: aarch64
+Installed-Size: 2256
+Maintainer: @termux
+Version: 0.16.3-1
+Homepage: https://github.com/JFreegman/toxic
+Depends: c-toxcore, libconfig, libcurl, libpng, libqrencode, ncurses
+Description: A command line client for Tox
+Filename: ./toxic_0.16.3-1_aarch64.deb
+Size: 910076
+MD5sum: 39b01366cf6c068e4883f1bc026d4544
+SHA1: b24e04e99ffec3f19363cbd8e9d36bb31a3b6b1d
+SHA256: e6d76a3790cf1654d72d85c45e16e7e87506c22e2224a4f49a7b41657e615d50
+
+Package: tracepath
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 20250605-2
+Homepage: https://github.com/iputils/iputils
+Description: Tool to trace the network path to a remote host
+Filename: ./tracepath_20250605-2_aarch64.deb
+Size: 8880
+MD5sum: 8799e46e8b9b48984e96ebb80561c8d6
+SHA1: 459297e63a1ad74a5205517d8d3684d1d7652ba5
+SHA256: 7f5fcfa15eecac46e0cd0a47dda1f3cb46a100399f351417b3a1a6a645df976f
+
+Package: traceroute
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 2.1.6-2
+Homepage: https://traceroute.sourceforge.net/
+Conflicts: tracepath (<< 20221126-1)
+Description: A new modern implementation of traceroute(8) utility for Linux systems
+Filename: ./traceroute_2.1.6-2_aarch64.deb
+Size: 32648
+MD5sum: a3e39527985e7b604deb2e0319bb260f
+SHA1: 69de3430deb1d815ed91b79af055d54b215b587c
+SHA256: c7a11e703baa80f21e905cbebde9fb40354c4bbb2c217fb945b3be81f738c020
+
+Package: translate-shell
+Architecture: all
+Installed-Size: 296
+Maintainer: @termux
+Version: 0.9.7.1-2
+Homepage: https://www.soimort.org/translate-shell
+Depends: bash, curl, gawk, less, rlwrap
+Suggests: hunspell, mpv
+Description: Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
+Filename: ./translate-shell_0.9.7.1-2_all.deb
+Size: 46088
+MD5sum: 6106e58eb6b364d378077d749784947c
+SHA1: 1e99c8e3aec20297b59a51383e14d9868d22b28f
+SHA256: bc89a0da1ed50604e5f1dba43628076c6997ac8a9925052d2274b94c331a0f74
+
+Package: transmission
+Architecture: aarch64
+Installed-Size: 13424
+Maintainer: @termux
+Version: 4.1.4-1
+Homepage: https://transmissionbt.com/
+Depends: libc++, libcurl, libevent, libpsl, miniupnpc, natpmpc, openssl
+Suggests: jackett
+Description: Easy, lean and powerful BitTorrent client
+Filename: ./transmission_4.1.4-1_aarch64.deb
+Size: 1559292
+MD5sum: 9d14cb02eba3a05893fd538c2e308cde
+SHA1: cdfbe3aebdc4040bbf2273813e899294591bf912
+SHA256: 41efeb06bd4fe73c1722e70c9c84087b0b6bb4a996e7fd45661f06ac327583e9
+
+Package: tree-sitter-bash
+Architecture: aarch64
+Installed-Size: 1428
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.25.1-3
+Homepage: https://github.com/tree-sitter/tree-sitter-bash
+Description: Bash grammar for tree-sitter
+Filename: ./tree-sitter-bash_0.25.1-3_aarch64.deb
+Size: 125744
+MD5sum: 1cd6e50128edc6a132a5a9faafe956d8
+SHA1: 6700d56bf12338b1e6060099f7a0b43a1457e5cb
+SHA256: 8e593d44e517e51bc80af83fe8539d81c7fd27f62067a25172e5be4d06095223
+
+Package: tree-sitter-css
+Architecture: aarch64
+Installed-Size: 220
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.25.0-3
+Homepage: https://github.com/tree-sitter/tree-sitter-css
+Description: CSS grammar for tree-sitter
+Filename: ./tree-sitter-css_0.25.0-3_aarch64.deb
+Size: 19016
+MD5sum: 871f921be9e12152e31403ac81167640
+SHA1: 742dbbc80c12c10ad5260da11dc6bb587c0c6fde
+SHA256: f1d25b545ee29147fe9721337bf7d01686b0f383fbd8533933dbecfd037fec32
+
+Package: tree-sitter-go
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.25.0-3
+Homepage: https://github.com/tree-sitter/tree-sitter-go
+Description: Golang grammar for tree-sitter
+Filename: ./tree-sitter-go_0.25.0-3_aarch64.deb
+Size: 29972
+MD5sum: 287db3d3eda62d3ff65beb4bd64ca8e1
+SHA1: c31587768029b444999c985ebfa50c220edde47c
+SHA256: 1c62f4847c1b5b686b323c1e62195ad023ec1db11af31264c37d4b622e208550
+
+Package: tree-sitter-html
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.23.2-3
+Homepage: https://github.com/tree-sitter/tree-sitter-html
+Description: HTML grammar for tree-sitter
+Filename: ./tree-sitter-html_0.23.2-3_aarch64.deb
+Size: 9608
+MD5sum: 20cf1c2c9d5b783db94a5f572ee6d6c8
+SHA1: ae70af1bd2e4ddb84dbd06eefccae86d01d6dccc
+SHA256: 6b6a2fda8048c2ea42a7d52a3f82845a4a50436b4ceae68f50c1d57bb7500f24
+
+Package: tree-sitter-java
+Architecture: aarch64
+Installed-Size: 500
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.23.5-3
+Homepage: https://github.com/tree-sitter/tree-sitter-java
+Description: Java grammar for tree-sitter
+Filename: ./tree-sitter-java_0.23.5-3_aarch64.deb
+Size: 37284
+MD5sum: 7fe7d7aa3d7ffe7af612544d0ba38e92
+SHA1: 9485b6e4cb5d708632892df41178dca38aa5c3c6
+SHA256: 678ebdafd2c48905aebeec4cb65672898509c896aa43f485f3ffba0e2e8d6d4f
+
+Package: tree-sitter-javascript
+Architecture: aarch64
+Installed-Size: 512
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.25.0-3
+Homepage: https://github.com/tree-sitter/tree-sitter-javascript
+Description: JavaScript grammar for tree-sitter
+Filename: ./tree-sitter-javascript_0.25.0-3_aarch64.deb
+Size: 40032
+MD5sum: 104899d9d365f5a5b9fbc0fe89f0f676
+SHA1: 7ec13d59da2de73be581c665a7309730846ae7cd
+SHA256: b72dddf6ccf85ac4ce432053d8015c447e6c26d184b622530636f3a7ce114cd1
+
+Package: tree-sitter-json
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.24.8-3
+Homepage: https://github.com/tree-sitter/tree-sitter-json
+Description: JSON grammar for tree-sitter
+Filename: ./tree-sitter-json_0.24.8-3_aarch64.deb
+Size: 4912
+MD5sum: 9acecfedd4911d90884fb1bc5655b896
+SHA1: cdcf7c39a2ce99dcfd660f1994ec4b63674775ad
+SHA256: 4b60be1f0ba163572cdabf1a5ddb83f26386e6cc652d3ca0c83d0f0ab35f76cb
+
+Package: tree-sitter-latex
+Architecture: aarch64
+Installed-Size: 3624
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.6.0-3
+Homepage: https://github.com/latex-lsp/tree-sitter-latex
+Description: LaTeX grammar for tree-sitter
+Filename: ./tree-sitter-latex_0.6.0-3_aarch64.deb
+Size: 96248
+MD5sum: e32fdf1eecc2e6fb25a1edba3092a717
+SHA1: 0222622c54cd81e9c9aadb19ab368f50551eb7b0
+SHA256: dfc038aed729d17d527d57a6871b17b1e01dc0dc0e4c90b35605c871dfa330ea
+
+Package: tree-sitter-markdown
+Architecture: aarch64
+Installed-Size: 820
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.5.4-1
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-markdown
+Description: Markdown grammar for tree-sitter
+Filename: ./tree-sitter-markdown_0.5.4-1_aarch64.deb
+Size: 88188
+MD5sum: a366d2d58c6e79ebe2cc79452f0eb601
+SHA1: e6daa67e1c85a5544460c52dc8f3c950ea98865f
+SHA256: a5789af01f2f934edffd013475e64d4ccde0e11efe80027600665acbb979c803
+
+Package: tree-sitter-python
+Architecture: aarch64
+Installed-Size: 544
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.25.0-3
+Homepage: https://github.com/tree-sitter/tree-sitter-python
+Description: Python grammar for tree-sitter
+Filename: ./tree-sitter-python_0.25.0-3_aarch64.deb
+Size: 49504
+MD5sum: c088c526db2c8a2265e68781b2c4224a
+SHA1: e37178ffaf468781241b83f048b70b6e9e94bbfa
+SHA256: 179732b4bb9833e07454bf1503d30cf587dbb8577da4bd2bee37030e0c318f4e
+
+Package: tree-sitter-regex
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.25.0-3
+Homepage: https://github.com/tree-sitter/tree-sitter-regex
+Description: RegEx grammar for tree-sitter
+Filename: ./tree-sitter-regex_0.25.0-3_aarch64.deb
+Size: 7812
+MD5sum: f772e442cb8bc9e67b68660a7f147bf3
+SHA1: c5cabad362750d524cdafb710a91be01e974c956
+SHA256: 671e361e7070a3637752e35db09472174a7099ad98bea0658884675468112591
+
+Package: tree-sitter-rust
+Architecture: aarch64
+Installed-Size: 1188
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.24.2-3
+Homepage: https://github.com/tree-sitter/tree-sitter-rust
+Description: Rust grammar for tree-sitter
+Filename: ./tree-sitter-rust_0.24.2-3_aarch64.deb
+Size: 77240
+MD5sum: 7c7f5687f38c7e86b3dc9be832d31052
+SHA1: dfed5e5c98716a8593d09d00a59649a70cb2ac7c
+SHA256: 63e3d174cf36dfd5c6d1418f63c68dc7990ef12cceb0d0d22ba5ea6dc649161d
+
+Package: tree-sitter-sql
+Architecture: aarch64
+Installed-Size: 2512
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.3.11-3
+Homepage: https://github.com/derekstride/tree-sitter-sql
+Description: SQL grammar for tree-sitter
+Filename: ./tree-sitter-sql_0.3.11-3_aarch64.deb
+Size: 212604
+MD5sum: e8e6885adf15b0694641dad6bc2038bd
+SHA1: 5ec8314f80c24f0e88d0cc1b9452e02307a71655
+SHA256: 199b02be61986df88ddf999804a74ffae94af7bba293be92d9e5bf75366d2e0b
+
+Package: tree-sitter-toml
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.7.0-3
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-toml
+Description: TOML grammar for tree-sitter
+Filename: ./tree-sitter-toml_0.7.0-3_aarch64.deb
+Size: 9628
+MD5sum: 35b7f1e1026780efe1136a85071bc162
+SHA1: 41e8f813d51ff010c7e0dbae154f4833e40965fe
+SHA256: 5bcb22b4bdb1b9e51b433fca917260939d38c2837dc1b785f43c482b339a21bf
+
+Package: tree-sitter-xml
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.7.0-3
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-xml
+Description: XML grammar for tree-sitter
+Filename: ./tree-sitter-xml_0.7.0-3_aarch64.deb
+Size: 15992
+MD5sum: 592d06ee81a5af68ba2eaa7943de24e2
+SHA1: 2c213d52f08435c8cc6bfe202f2c3c9793845069
+SHA256: 4a1f89c649ef5488c6176b62ad698298d564b173559076782208b6e88362cd90
+
+Package: tree-sitter-yaml
+Architecture: aarch64
+Installed-Size: 276
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.7.2-3
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-yaml
+Description: YAML grammar for tree-sitter
+Filename: ./tree-sitter-yaml_0.7.2-3_aarch64.deb
+Size: 28648
+MD5sum: 1f42b12633ffe0f8113d86260c7da6ba
+SHA1: 0e1ae85670af5e8f8a49fea2a6bfa64745e862cc
+SHA256: 4f4d615df3fa16348d38b9403d50067db8dadaea3fa5d0f0e0d7a39c3fc724dc
+
+Package: trojan-go
+Architecture: aarch64
+Installed-Size: 16756
+Maintainer: @termux
+Version: 0.10.6-6
+Homepage: https://p4gefau1t.github.io/trojan-go
+Description: A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW
+Filename: ./trojan-go_0.10.6-6_aarch64.deb
+Size: 4255176
+MD5sum: 195401b1c22cc3c640b72e7479677569
+SHA1: c7732df2d522ee9ad172bf4b688205461408be9c
+SHA256: 1081af679dbaee21cc49a4557d843146cf0ea9732e313a78a94630761b61af25
+
+Package: trunk
+Architecture: aarch64
+Installed-Size: 30312
+Maintainer: @termux
+Version: 0.22.1-1
+Homepage: https://trunkrs.dev/
+Depends: openssl, bzip2
+Description: Build, bundle & ship your Rust WASM application to the web
+Filename: ./trunk_0.22.1-1_aarch64.deb
+Size: 5580000
+MD5sum: 0fcd9ed4a7bb09e5756e19339db8f2b0
+SHA1: cec4313ebc7b0c458b524b977ee21488be257a52
+SHA256: 17beef17785875cd3de4dc5b33360d635d518bb5724b4005cb45987f4603a1df
+
+Package: trurl
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 0.16.1-2
+Homepage: https://curl.se/trurl/
+Depends: libcurl
+Description: trurl is a command line tool that parses and manipulates URLs
+Filename: ./trurl_0.16.1-2_aarch64.deb
+Size: 22024
+MD5sum: cdffa991965caf1402fa31306b73e7a3
+SHA1: 0655dbb1185053c032ec84842d2de9cfe16efb2e
+SHA256: dc2505ecf30e83b092ce173673c85c9133c21d7b300b1b68506bc08c88b920ae
+
+Package: trzsz-go
+Architecture: aarch64
+Installed-Size: 18060
+Maintainer: @termux
+Version: 1.2.0-2
+Homepage: https://trzsz.github.io/
+Recommends: trzsz-ssh
+Description: A simple file transfer tools, similar to lrzsz ( rz / sz )
+Filename: ./trzsz-go_1.2.0-2_aarch64.deb
+Size: 2976024
+MD5sum: 4f7ba90e05118e7d17a5336a6cf09d5f
+SHA1: 919c2703f1e45af5a5a4ab470b064846b6c5d0d9
+SHA256: 571b3d7b4ec811623ae099e951ba0410a667944574216ade1da554f3757f2661
+
+Package: trzsz-ssh
+Architecture: aarch64
+Installed-Size: 22772
+Maintainer: @termux
+Version: 0.1.27-1
+Homepage: https://trzsz.github.io/ssh
+Recommends: trzsz-go
+Description: An openssh client alternative
+Filename: ./trzsz-ssh_0.1.27-1_aarch64.deb
+Size: 5608528
+MD5sum: 97ab5a4eee36e09c47ce4df929643675
+SHA1: 0e43082456e90562e2b076260d25b4d7c18e45d2
+SHA256: f1778953eb9ba7841bd07d8d9515efac0cced3119a9473122ea7d050a0493154
+
+Package: tsocks
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 1.8beta5-6
+Homepage: http://tsocks.sf.net
+Description: transparent network access through a SOCKS 4 or 5 proxy
+Filename: ./tsocks_1.8beta5-6_aarch64.deb
+Size: 19768
+MD5sum: 1889fb97f610c6de7b4d76a787d03655
+SHA1: 9360044b9b3d670d9e9ff227777d1614fe6c7586
+SHA256: 9cf6cf4c29b4870fd96265a41939a1cb266c839035c42b4c0c40707d611ee7ef
+
+Package: tsu
+Architecture: all
+Installed-Size: 52
+Maintainer: @termux
+Version: 8.6.0-2
+Homepage: https://github.com/cswl/tsu
+Description: A su wrapper for Termux
+Filename: ./tsu_8.6.0-2_all.deb
+Size: 4400
+MD5sum: 4decc6490c9006f1b4b07f1355f66447
+SHA1: 366715e4c96f2cc63c1f4aa63ef0a1bbdd50b7b1
+SHA256: d7f50e0bc6b11d9d9827706cfeae9bbd9a659081d724e2dee15554bf9c5dc98d
+
+Package: ttf-jetbrains-mono
+Architecture: all
+Installed-Size: 7724
+Maintainer: @termux
+Version: 2.304-1
+Homepage: https://www.jetbrains.com/lp/mono/
+Description: A free and open-source typeface for developers
+Filename: ./ttf-jetbrains-mono_2.304-1_all.deb
+Size: 735312
+MD5sum: d1c2ef816b5636cb8b498f938364c1cc
+SHA1: 5f9561e8417eb10cb2709ede4573e1f98c4615ce
+SHA256: d0a66ad4757a9b3638f2842693b1d71afafe9439280ed4036a1416314e520ac4
+
+Package: ttf-nerd-fonts-symbols
+Architecture: all
+Installed-Size: 5144
+Maintainer: @termux
+Version: 3.5.1-1
+Homepage: https://www.nerdfonts.com/
+Description: Symbols-only font containing the Nerd Font icons
+Filename: ./ttf-nerd-fonts-symbols_3.5.1-1_all.deb
+Size: 2361432
+MD5sum: 4050e382e53033de49e8fbdfd8d43e52
+SHA1: f5e5bef7006cd2e0a7887a4b1c0b476cd05862eb
+SHA256: 8dd44dad1686a269fd359f2bc646c7b4dac2998db3961e76743b3894dc1615d8
+
+Package: tty-clock
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Version: 2.3-3
+Homepage: https://github.com/xorg62/tty-clock
+Depends: ncurses
+Description: Simple terminal clock
+Filename: ./tty-clock_2.3-3_aarch64.deb
+Size: 8916
+MD5sum: 8efe9e0a1d910a329b753f5ce39f91d8
+SHA1: b2e4c33a7270219239b3b6973056261a1fde3291
+SHA256: 304a5b52327c0ca14781b8f2988d6e4e4254ed3c38c135262c70c00ae2a808e7
+
+Package: tty-solitaire
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 1.4.1-2
+Homepage: https://github.com/mpereira/tty-solitaire
+Depends: ncurses
+Description: Klondike solitaire game
+Filename: ./tty-solitaire_1.4.1-2_aarch64.deb
+Size: 9388
+MD5sum: c7e02f801a05fab2a2b340b710f9657a
+SHA1: 7a49f3778d18f7ed126683a4640e99d9997f46be
+SHA256: 6a2ff303019b4c1b5d210e3fa8f2309938bebce13e46a7d4f9fb6f8babee6806
+
+Package: ttyc
+Architecture: aarch64
+Installed-Size: 7996
+Maintainer: @termux
+Version: 0.4-6
+Homepage: https://github.com/Depau/ttyc
+Description: ttyd protocol client
+Filename: ./ttyc_0.4-6_aarch64.deb
+Size: 2308820
+MD5sum: ced8f13187e7185890118780b98ff1af
+SHA1: 21f693c18fb7e0add13dc88b63077ed1c367943f
+SHA256: 5f5a353e8619ab603782a00fa83c856e485549642fc773db1d9a307a9cbed667
+
+Package: ttyd
+Architecture: aarch64
+Installed-Size: 284
+Maintainer: @termux
+Version: 1.7.7-7
+Homepage: https://tsl0922.github.io/ttyd/
+Depends: json-c, libcap, libuv, libwebsockets, openssl, zlib
+Description: Command-line tool for sharing terminal over the web
+Filename: ./ttyd_1.7.7-7_aarch64.deb
+Size: 210224
+MD5sum: 305e0cc90c76276100554efc5fb66c7c
+SHA1: b023314828d17ea1c80fdb8551ba88aca54c71dc
+SHA256: 395ae0134dda6b66374e73c8b1ccfdff0da5c136e5871add26e2b0b7655d10d9
+
+Package: ttyper
+Architecture: aarch64
+Installed-Size: 1724
+Maintainer: @termux
+Version: 1.6.0-2
+Homepage: https://github.com/max-niederman/ttyper
+Description: Terminal-based typing test
+Filename: ./ttyper_1.6.0-2_aarch64.deb
+Size: 586648
+MD5sum: 760dddfb05ca5fd74b0ec43daf522f28
+SHA1: d6c3087e17f6bac2b84538ee0e9adcf0875b30f7
+SHA256: eb0df68e1847ddb0fdb55cd2343eb0da530e7cdf55e93b518b13701967b689f1
+
+Package: ttyplot
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 1.7.6-1
+Homepage: https://github.com/tenox7/ttyplot
+Depends: ncurses
+Description: A realtime plotting utility for terminal with data input from stdin
+Filename: ./ttyplot_1.7.6-1_aarch64.deb
+Size: 9744
+MD5sum: bf2d6fc30a5381682d3c166e7eb4d3c1
+SHA1: a58036b6e8123c10e66d3b871213c468cdb2a9eb
+SHA256: dccfedc233e42f54f592028419a2fa32490733cdd0aaf8005a3607215fa7d2fa
+
+Package: ttyrec
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.0.8-10
+Homepage: https://0xcc.net/ttyrec/
+Description: Terminal recorder and player
+Filename: ./ttyrec_1.0.8-10_aarch64.deb
+Size: 10704
+MD5sum: 35491cc5c8b067f3b3f777d4bec4d76f
+SHA1: 22520a5f954f62802d1485e05419179b9125a76f
+SHA256: 75017c46b70713ac8cd432be3c763fe702f4cbf0440c174a79a5514994a0a635
+
+Package: tudo
+Architecture: all
+Installed-Size: 408
+Maintainer: @agnostic-apollo
+Version: 1.3.0-1
+Homepage: https://github.com/agnostic-apollo/tudo
+Depends: bash
+Description: A wrapper script to drop to the supported shells or execute shell script files or their text passed as an argument as the Termux app (u<userid>_a<appid>) user in the Termux app
+Filename: ./tudo_1.3.0-1_all.deb
+Size: 46292
+MD5sum: 4ed57e756726ab67c7c53c775c7f5f53
+SHA1: c21af8b12f0958a23fb72e36590858759482099a
+SHA256: e4b4490a5daa2ca663a67fcbe6da84b958beb7a9206439c37a2d26d6134b4a7b
+
+Package: tuicr
+Architecture: aarch64
+Installed-Size: 12456
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.28.0-1
+Homepage: https://github.com/agavra/tuicr
+Depends: libgit2, libssh2, openssl, zlib
+Description: A code review TUI with vim keybindings, exports to GitHub, GitLab, Gitea, Bitbucket, or clipboard
+Filename: ./tuicr_0.28.0-1_aarch64.deb
+Size: 4251076
+MD5sum: 3c3d17f16945523997451462c12f17ea
+SHA1: 0752fa1837b140b3657df9f918ed6e7378e27e7a
+SHA256: cc69adaa2d1a65139bdd8278fcb84a5bf4e317a5bb4a27a6d0046ab831fcc0cc
+
+Package: tur-repo
+Architecture: all
+Installed-Size: 60
+Maintainer: @termux-user-repository
+Version: 1.0.1-1
+Homepage: https://github.com/termux-user-repository/tur
+Description: A single and trusted place for all unofficial/less popular termux packages
+Filename: ./tur-repo_1.0.1-1_all.deb
+Size: 2904
+MD5sum: 9164c1cb6f5eec7f08bd70fb79d5876f
+SHA1: 24c0cf1222894a5bc61a4f50782c0965fde855cf
+SHA256: 97f5ce1be37eca3c51f57de7903e057c5322a2ee0b37c0dc7f19d5cca913793f
+
+Package: turbo
+Architecture: aarch64
+Installed-Size: 45244
+Maintainer: @xingguangcuican6666
+Version: 2.10.0-1
+Homepage: https://turborepo.dev/
+Description: High-performance build system for JS/TS
+Filename: ./turbo_2.10.0-1_aarch64.deb
+Size: 10666556
+MD5sum: cb81048fa989cee1e516f508bdf191a6
+SHA1: 7091d6e8a851c0ead720a22924853a72333590fd
+SHA256: b58cb621f4b629af2b99a98c0526b24fdc874144cca4a4104e6ea3f61ffdff21
