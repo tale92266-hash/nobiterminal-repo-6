@@ -2869,6 +2869,20 @@ MD5sum: e41c9120cb89da55fcc9344b70636f37
 SHA1: d8d72854f2d94f7878cf4c551b936c900a9c454b
 SHA256: 082b6f4b6bd45f8c56b29fb3e9d182d2cac2fbe7e55b1b0bbdde23cd199c8621
 
+Package: vcsh
+Architecture: all
+Installed-Size: 204
+Maintainer: @termux
+Version: 2.0.10-4
+Homepage: https://github.com/RichiH/vcsh
+Depends: git
+Description: Config manager based on Git
+Filename: ./vcsh_2.0.10-4_all.deb
+Size: 32464
+MD5sum: 2b9915cd9046e6992c8ff1d2d217e7ff
+SHA1: 1e562fbdcd62601060c0ff385c354ea1a48a192b
+SHA256: 8e24afdbb33a1036ae1fc9eee55d331ce18f4d64ab48e17734efdb3227b5e947
+
 Package: vgmtools
 Architecture: aarch64
 Installed-Size: 744
