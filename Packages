@@ -2326,3 +2326,254 @@ Size: 10666556
 MD5sum: cb81048fa989cee1e516f508bdf191a6
 SHA1: 7091d6e8a851c0ead720a22924853a72333590fd
 SHA256: b58cb621f4b629af2b99a98c0526b24fdc874144cca4a4104e6ea3f61ffdff21
+
+Package: tut
+Architecture: aarch64
+Installed-Size: 12460
+Maintainer: @termux
+Version: 2.0.1-5
+Homepage: https://github.com/RasmusLindroth/tut
+Description: A TUI for Mastodon with vim inspired keys
+Filename: ./tut_2.0.1-5_aarch64.deb
+Size: 3292824
+MD5sum: e03f752a1eee599d0aaab3a7c20d07bb
+SHA1: aa1f59179a3fe4405683ecffac3e0f28e75126b5
+SHA256: f4983e5963682a7206baeed5fbd5a9055be338339cc76ea46e49c45802c3cee6
+
+Package: tvheadend-data
+Architecture: all
+Installed-Size: 48132
+Maintainer: Aditya Alok <alok@termux.dev>
+Version: 4.2.8-14
+Homepage: https://tvheadend.org/
+Breaks: tvheadend (<< 4.2.8-9)
+Replaces: tvheadend (<< 4.2.8-9)
+Description: Platform-independent data for tvheadend
+Filename: ./tvheadend-data_4.2.8-14_all.deb
+Size: 4871804
+MD5sum: 7ac88cac5201ad427dca9963336cedf4
+SHA1: 5ad5642e05578b01b70e0da9744500f0628519f5
+SHA256: 64c0c16acd82d4042ffac852781e5d81361050db2031211f99709eeb9daa70b3
+
+Package: tvheadend
+Architecture: aarch64
+Installed-Size: 4424
+Maintainer: Aditya Alok <alok@termux.dev>
+Version: 4.2.8-14
+Homepage: https://tvheadend.org/
+Depends: dbus, libandroid-execinfo, libdvbcsa, libiconv, openssl, tvheadend-data, zlib
+Description: TV streaming server for Linux and Android supporting DVB-S, DVB-S2 and other formats.
+Filename: ./tvheadend_4.2.8-14_aarch64.deb
+Size: 1019808
+MD5sum: 7e86043024bec73a54fae120d41dd009
+SHA1: c8fdc53d9b3347d28f31ec52940f5feddbf68ef1
+SHA256: 7c7357a47de8d3f28cb54dea5f55f30f1081f8fe08cb7c2faa99acdc172437b1
+
+Package: tweego
+Architecture: aarch64
+Installed-Size: 4072
+Maintainer: @termux
+Version: 2.1.1-6
+Homepage: https://bitbucket.org/tmedwards/tweego
+Description: A free command line compiler for Twine/Twee story formats
+Filename: ./tweego_2.1.1-6_aarch64.deb
+Size: 1190376
+MD5sum: 7526af00ea327c734e107ebac7712639
+SHA1: 9bfc9b09a4a894ea428c208fae14815010188867
+SHA256: f90fb07fd6fb316b98f5e1bdd1b6e39b2d62c00dcb7618f3366b8b79d677ca30
+
+Package: txr
+Architecture: aarch64
+Installed-Size: 4376
+Maintainer: Jules Amonith <examosa@fastmail.com>
+Version: 302-1
+Homepage: https://www.nongnu.org/txr/
+Depends: libffi, zlib
+Description: Data munging language and pattern matching tool
+Filename: ./txr_302-1_aarch64.deb
+Size: 1418088
+MD5sum: 10482dd75ec16fdc095cbb1b3f38c8e9
+SHA1: e92dd38cd47c5b0d9dcfb296c44f4c40635263ca
+SHA256: 1c115303fbeaa41b331fcd3298e29fd7c4b7a36f67d6efed2c638e7150ae7739
+
+Package: typst
+Architecture: aarch64
+Installed-Size: 45232
+Maintainer: @termux
+Version: 0.15.1-1
+Homepage: https://typst.app/
+Depends: openssl
+Description: A new markup-based typesetting system that is powerful and easy to learn
+Filename: ./typst_0.15.1-1_aarch64.deb
+Size: 14361404
+MD5sum: 606a87e41ba125f8ad24160ed51110a9
+SHA1: c4abd8a82080426b8fa6b9ef7024f46028bdc3ab
+SHA256: 86745295235c56a59ac554ee07ce197ee9bb55a8fe5953dca3e3ac2433e1ec2f
+
+Package: unicorn-static
+Architecture: aarch64
+Installed-Size: 29192
+Maintainer: @termux
+Version: 2.1.4-1
+Homepage: https://www.unicorn-engine.org/
+Depends: unicorn (= 2.1.4-1)
+Description: Static libraries for unicorn
+Filename: ./unicorn-static_2.1.4-1_aarch64.deb
+Size: 2397052
+MD5sum: 96fc734e4e137b99166f9a5e80cb25c0
+SHA1: 6c52a2d549aa922a0525bf01ba4b294f56af5a99
+SHA256: 84a4f12e9639c0e3e7137b6a35dc0de196dba6e45004cd7a45a24dd019c74afe
+
+Package: unicorn
+Architecture: aarch64
+Installed-Size: 19624
+Maintainer: @termux
+Version: 2.1.4-1
+Homepage: https://www.unicorn-engine.org/
+Breaks: unicorn-dev
+Replaces: unicorn-dev
+Description: Unicorn is a lightweight multi-platform, multi-architecture CPU emulator framework
+Filename: ./unicorn_2.1.4-1_aarch64.deb
+Size: 2592380
+MD5sum: 56154a8917285325a6785a70da113454
+SHA1: 67af629ab269623fa9023b6b3674f033e2415017
+SHA256: 2cfd40dd94c383293fe9f4538f9283a65a633327a8dd21043c89a3c2fe4566ff
+
+Package: unifdef
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 2.12-2
+Homepage: http://dotat.at/prog/unifdef/
+Description: Remove #ifdef'ed lines
+Filename: ./unifdef_2.12-2_aarch64.deb
+Size: 16384
+MD5sum: 0abea85fd3b337d83206bacc7e989ba0
+SHA1: 450ac954d1a37995a2c92c962a20bbd7fb0b4415
+SHA256: 825e3ba31996d1d0b03104bedc542f1266ba0154c672a4cbeb3852bfbddd3f75
+
+Package: units-cur
+Architecture: all
+Installed-Size: 60
+Maintainer: @termux
+Version: 2.27-1
+Homepage: https://www.gnu.org/software/units/
+Depends: python, python-pip, units (= 2.27-1)
+Breaks: units (<< 2.22)
+Replaces: units (<< 2.22)
+Description: units_cur Python script
+Filename: ./units-cur_2.27-1_all.deb
+Size: 9984
+MD5sum: 18e2a2f88de10e3bc687303ea48f215f
+SHA1: d3883d4e2cb0dad08c91b14a8ad59110f73cbc31
+SHA256: ac133b2c7b08ef31c1e5aa2e9895957b0712900bb40a904129ebbd31a5d1ac7f
+
+Package: units
+Architecture: aarch64
+Installed-Size: 1084
+Maintainer: @termux
+Version: 2.27-1
+Homepage: https://www.gnu.org/software/units/
+Depends: readline, libandroid-support
+Description: Converts between different systems of units
+Filename: ./units_2.27-1_aarch64.deb
+Size: 285240
+MD5sum: 6a18373df613dd5d9ad6e4cdd3e8de84
+SHA1: 79aa5f0bcbad46834297189046103cb53a277f31
+SHA256: 0c3b647c5595d694482cc96fe79b4a3370e5ef9d7ce62b75d859ec4c53dcdf3e
+
+Package: unrar
+Architecture: aarch64
+Installed-Size: 496
+Maintainer: @termux
+Version: 7.3.2-1
+Homepage: https://www.rarlab.com/
+Depends: libandroid-support, libc++
+Description: Tool for extracting files from .rar archives
+Filename: ./unrar_7.3.2-1_aarch64.deb
+Size: 172332
+MD5sum: 27f8a5e84a836c7a7ef6ded1309fbc83
+SHA1: c16520260422f9f7676138a162053d0d2a1b0902
+SHA256: 2aab95dce6b2484453e40629488e3c5c30a963945a3e85382d50e06234b355ee
+
+Package: unshield
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: @termux
+Version: 1.6.2-2
+Homepage: https://github.com/twogood/unshield
+Depends: libiconv, openssl, openssh, zlib
+Description: Tool and library to extract CAB files from InstallShield installers
+Filename: ./unshield_1.6.2-2_aarch64.deb
+Size: 23000
+MD5sum: 68acdf642f1c9905ec72c9e2f7fbad92
+SHA1: 78e0e1e86c4b383045ecb26c4f16384cf0f8e694
+SHA256: ac1ced4f633caca7ca97259327def50bab0efd1d4e26107e004fd7c0a02b3782
+
+Package: up
+Architecture: aarch64
+Installed-Size: 3160
+Maintainer: @termux
+Version: 0.4-6
+Homepage: https://github.com/akavel/up
+Description: Helps interactively and incrementally explore textual data in Linux
+Filename: ./up_0.4-6_aarch64.deb
+Size: 907032
+MD5sum: 59a8766b040e157a8c1398c4c39864c7
+SHA1: 2b6471b44a46bbdb3f0c1f76c5ad17c2d8bf404b
+SHA256: fa6130fe123816d50db6dddd16be81ea8e28f85d1f472244ed609ccc3b5475b0
+
+Package: upower
+Architecture: aarch64
+Installed-Size: 564
+Maintainer: @termux
+Version: 1.91.5-1
+Homepage: https://upower.freedesktop.org/
+Depends: glib, gobject-introspection, termux-api
+Description: Power management support for DeviceKit
+Filename: ./upower_1.91.5-1_aarch64.deb
+Size: 81256
+MD5sum: 8b5d8231b1a04171af159c7a8b34029f
+SHA1: bde0def8eabebea8990756dbbb8655e216b8b839
+SHA256: 5639233ae39238c8778de43e4b4be3df8890cd2984a7fd304c46a27d67f3ed56
+
+Package: upx
+Architecture: aarch64
+Installed-Size: 3396
+Maintainer: @termux
+Version: 5.3.0-1
+Homepage: https://upx.github.io/
+Depends: libc++
+Description: the Ultimate Packer for eXecutables
+Filename: ./upx_5.3.0-1_aarch64.deb
+Size: 712288
+MD5sum: 7bc786612cb185b406876f2d94aefe3d
+SHA1: 2eaa3e215ae5423196adf430d013d894d8193119
+SHA256: 19cb2bf53c95ae53675892d31367dd21c0a4046f118523e2c31d0db441723d84
+
+Package: urdfdom-headers
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Version: 3.0.1-1
+Homepage: https://github.com/ros/urdfdom_headers
+Description: Headers for URDF parsers
+Filename: ./urdfdom-headers_3.0.1-1_aarch64.deb
+Size: 12112
+MD5sum: 09b330a0404e77ad0113dbeb4e84217f
+SHA1: cca3fa1d8bb9e89bd897048f5702591a57666cc8
+SHA256: f61e72564a912c03baa72a52ff4b42673b25138ebb0510a40cee8c0e36f78ed5
+
+Package: urdfdom
+Architecture: aarch64
+Installed-Size: 596
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Version: 6.0.2-1
+Homepage: https://github.com/ros/urdfdom
+Depends: libc++, libtinyxml2, urdfdom-headers, console-bridge
+Description: Unified Robot Description Format (URDF) parser library and tools
+Filename: ./urdfdom_6.0.2-1_aarch64.deb
+Size: 81296
+MD5sum: 5f6262efa5d57348f228da2b00549455
+SHA1: 9b09ef0c65697e392f818909df346f266e8771da
+SHA256: 96ade79f62f8f74e057e765cebe1eba51c5b075753c3cac4263560460eaa7c6e
