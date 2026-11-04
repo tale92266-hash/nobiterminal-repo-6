@@ -70,6 +70,23 @@ MD5sum: 64594d38cfc99b04c4e436cce9a15c32
 SHA1: 5ed658d5dc0ed0b0eff07b1aed4ba29495b15b21
 SHA256: dcaf08926da3e92adea02d2659f00d9eac5e8e9cf8a2f1bc36c75367bcc284d1
 
+Package: python-xcbgen
+Architecture: all
+Installed-Size: 132
+Maintainer: @termux
+Version: 1.17.0-4
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-proto (= 1.17.0-4)
+Breaks: xcb-proto (<< 1.15.2)
+Recommends: python
+Replaces: xcb-proto (<< 1.15.2)
+Description: The xcbgen Python module
+Filename: ./python-xcbgen_1.17.0-4_all.deb
+Size: 15204
+MD5sum: c3848cb9f5c735d186f51a91fee9dba2
+SHA1: fa3134cdb45515329e9beab4d9899e2e858f2106
+SHA256: 737ad2d6ff94fa3c3012ed1e7c9b3b4dde246d2a73505301ff80b452ba6c551e
+
 Package: rtorrent
 Architecture: aarch64
 Installed-Size: 2180
@@ -2869,6 +2886,20 @@ MD5sum: e41c9120cb89da55fcc9344b70636f37
 SHA1: d8d72854f2d94f7878cf4c551b936c900a9c454b
 SHA256: 082b6f4b6bd45f8c56b29fb3e9d182d2cac2fbe7e55b1b0bbdde23cd199c8621
 
+Package: vbindiff
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 3.0-beta5-2
+Homepage: https://www.cjmweb.net/vbindiff/
+Depends: libc++, ncurses, ncurses-ui-libs
+Description: Visual binary diff
+Filename: ./vbindiff_3.0-beta5-2_aarch64.deb
+Size: 31388
+MD5sum: 63dad38b81ee82481b6e44543b693f72
+SHA1: b95f6f749265b840250d4ab876dcf9a0671c1831
+SHA256: 68a6d52de702ac945a48309015e5acc482be1c79cd2a7609dbfcf375aa8580c9
+
 Package: vcsh
 Architecture: all
 Installed-Size: 204
@@ -2882,6 +2913,61 @@ Size: 32464
 MD5sum: 2b9915cd9046e6992c8ff1d2d217e7ff
 SHA1: 1e562fbdcd62601060c0ff385c354ea1a48a192b
 SHA256: 8e24afdbb33a1036ae1fc9eee55d331ce18f4d64ab48e17734efdb3227b5e947
+
+Package: vde2-static
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: @termux
+Version: 2.3.3-8
+Homepage: https://github.com/virtualsquare/vde-2
+Depends: vde2 (= 2.3.3-8)
+Description: Static libraries for vde2
+Filename: ./vde2-static_2.3.3-8_aarch64.deb
+Size: 22060
+MD5sum: a31b324388777a9e4235290aeae64ba0
+SHA1: dc6bc7cbc9a9e50b217056bb271bf81c1032cb18
+SHA256: 5ce9976672767f0b8932d01295d733ac0a4b82c7bdff5ee4d23d1a408aaabaeb
+
+Package: vde2
+Architecture: aarch64
+Installed-Size: 660
+Maintainer: @termux
+Version: 2.3.3-8
+Homepage: https://github.com/virtualsquare/vde-2
+Depends: libpcap, libwolfssl
+Description: Virtual Distributed Ethernet for emulators like qemu
+Filename: ./vde2_2.3.3-8_aarch64.deb
+Size: 139200
+MD5sum: 822712a582b3f7f72ccc3bfe69f868a9
+SHA1: 213b4827a72d6bd30c7b5f31e0822c42601d6594
+SHA256: e26e4c6818a7a61f0c2a6ee563db89119fbbac8103b5e77d5e67e89afddc2e90
+
+Package: vegeta
+Architecture: aarch64
+Installed-Size: 13528
+Maintainer: @termux
+Version: 12.13.0-2
+Homepage: https://github.com/tsenart/vegeta
+Description: HTTP load testing tool
+Filename: ./vegeta_12.13.0-2_aarch64.deb
+Size: 3510468
+MD5sum: 431f7ce3d855ce5c78dfdeb2007eb7da
+SHA1: 799729b8089c8aabc164dfcc381a426f2ed76e67
+SHA256: fb667f8e99a6ad73771e8f0a335282eddd0549af64db0acfffadd5e0953c8bd9
+
+Package: vera
+Architecture: aarch64
+Installed-Size: 676
+Maintainer: @termux
+Version: 1.3.0-12
+Homepage: https://bitbucket.org/verateam/vera
+Depends: boost, libc++, tcl
+Description: A programmable tool for verification, analysis and transformation of C++ source code
+Filename: ./vera_1.3.0-12_aarch64.deb
+Size: 144544
+MD5sum: 9a2538dd8b7e453da1e39b638af90337
+SHA1: eaae8d1587345e5a3fbd14d71d6eca12f8e7e111
+SHA256: aa8e6cf8fe0edcc12b14fdd875c1fe43a04cd93799320b1acbf40364f972cb47
 
 Package: vgmtools
 Architecture: aarch64
@@ -3046,6 +3132,35 @@ MD5sum: 01b7cfdd5c251f21f9708d7e90e38a18
 SHA1: b53edd013e5a41900c08317c5f92d4d746eb9815
 SHA256: 806899445e5b6b03dd8f729ca093050021f6ca1a3d1786b1014620f0f82c868b
 
+Package: w3m-img
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 0.5.6-3
+Homepage: https://git.sr.ht/~rkta/w3m
+Depends: imlib2, libx11, w3m (= 0.5.6-3)
+Description: Inline image extension support utilities for w3m
+Filename: ./w3m-img_0.5.6-3_aarch64.deb
+Size: 5844
+MD5sum: 1f8105eb2dbad4876443f579cd4073a4
+SHA1: 84ee61b59310fc0ca3c6fdd62a7570fd07f9fe91
+SHA256: 342c28e1cb8370d307d1b1489f052801b66e5f7a4cefe4cb5a279a91baa59418
+
+Package: w3m
+Architecture: aarch64
+Installed-Size: 2064
+Maintainer: @termux
+Version: 0.5.6-3
+Homepage: https://git.sr.ht/~rkta/w3m
+Depends: libgc, ncurses, openssl, zlib
+Suggests: imlib2, libsixel, perl
+Description: Text based Web browser and pager
+Filename: ./w3m_0.5.6-3_aarch64.deb
+Size: 675148
+MD5sum: af6ece64556104f0626822fd769d545c
+SHA1: 90c2bb7164b4a06b4b662d27199eebc9fccb8211
+SHA256: 2784b28343c2fc9b2ecd4ab57c54b0342de28aa4c956b4fc02b34cac6e2e2745
+
 Package: wabt
 Architecture: aarch64
 Installed-Size: 19112
@@ -3154,3 +3269,610 @@ Size: 2496348
 MD5sum: d17ebf04e07e3094a1b4c13f6feda185
 SHA1: a758b11c1d725d1785a211c1f57403472d3ac7b8
 SHA256: eda434c50625ad86a9c8bdeb503b283318f9fb307104dcfb1b20d51381a3dca0
+
+Package: waypipe
+Architecture: aarch64
+Installed-Size: 228
+Maintainer: @termux
+Version: 0.11.3-1
+Homepage: https://gitlab.freedesktop.org/mstoeckl/waypipe
+Depends: libandroid-spawn, liblz4, libwayland, zstd
+Description: A proxy for Wayland clients
+Filename: ./waypipe_0.11.3-1_aarch64.deb
+Size: 65596
+MD5sum: c4b4d83bdc2a10a0659d2d6707164621
+SHA1: 57e2e2b4908d17ff9d6b5ea04f8b174793ce7677
+SHA256: 8707bc9741f942b7a70e505124714588c097fcbf87bacae3302945eaf53c472e
+
+Package: wcalc
+Architecture: aarch64
+Installed-Size: 400
+Maintainer: @termux
+Version: 2.5-7
+Homepage: https://w-calc.sourceforge.net
+Depends: flex,libmpfr,libgmp,readline
+Description: Capable calculator
+Filename: ./wcalc_2.5-7_aarch64.deb
+Size: 97684
+MD5sum: af601b238fec796eef266fc1b0d917e9
+SHA1: 52dfdb74dd6dbdaa3ee613823b956a307a067097
+SHA256: 7c8481c599e362aaf66ab949d887984219bf7aec3b12b4bd905073c2b5546aae
+
+Package: wcslib-static
+Architecture: aarch64
+Installed-Size: 1704
+Maintainer: @termux
+Version: 8.10-1
+Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
+Depends: wcslib (= 8.10-1)
+Description: Static libraries for wcslib
+Filename: ./wcslib-static_8.10-1_aarch64.deb
+Size: 200432
+MD5sum: 8b2d54a8220491664062049d8e3798c5
+SHA1: 6f46f3e18ba4c0c9a2fab9891523f9cfb961d078
+SHA256: b1f5a443360b830664785958c2a82502fcd3e4b76e6864751158ff679b6c9f1a
+
+Package: wcslib
+Architecture: aarch64
+Installed-Size: 12580
+Maintainer: @termux
+Version: 8.10-1
+Homepage: https://www.atnf.csiro.au/people/Mark.Calabretta/WCS/
+Depends: cfitsio
+Description: a C library that implements the 'World Coordinate System' (WCS) standard in FITS
+Filename: ./wcslib_8.10-1_aarch64.deb
+Size: 2438172
+MD5sum: 84f70de3bb70d330165cb2eff0a20ec9
+SHA1: 9fabf8dc56bf5b411ae437b060f2b9643fdd295d
+SHA256: fe12c824ed037fd4c30832df8bfe918d238b48b517c179745003fd71e11d3680
+
+Package: wdiff
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.2.3-1
+Homepage: https://www.gnu.org/software/wdiff/
+Depends: ncurses
+Description: Display word differences between text files
+Filename: ./wdiff_1.2.3-1_aarch64.deb
+Size: 17468
+MD5sum: 8dd47d2174df67625f332180666007d4
+SHA1: 2f8d89c44bc182d4136d825812a8e84fb468eafc
+SHA256: 3b24b73b7a2c27d2a564e9dd4ff45cf2d76a8d1323d8eda19937431a0b767e39
+
+Package: webp-pixbuf-loader
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 0.2.7-2
+Homepage: https://github.com/aruiz/webp-pixbuf-loader
+Depends: gdk-pixbuf, glib, libwebp
+Description: WebM GDK Pixbuf Loader library
+Filename: ./webp-pixbuf-loader_0.2.7-2_aarch64.deb
+Size: 7464
+MD5sum: d06ff725711a662764730e5618fe3863
+SHA1: 5a97f82595e5c296f79d053e68919b623a277572
+SHA256: df01aefff62a1434c8f089835d9a951f6818182777deffd13236e5f36d275abf
+
+Package: websocat
+Architecture: aarch64
+Installed-Size: 3552
+Maintainer: @termux
+Version: 1.14.1-1
+Homepage: https://github.com/vi/websocat
+Depends: openssl
+Description: Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions
+Filename: ./websocat_1.14.1-1_aarch64.deb
+Size: 969912
+MD5sum: 6136a13c8431edade72235a194080061
+SHA1: ba0ec7ebee5a8f5a3bf6136d002808744572ffc8
+SHA256: 5d9685736c0f7fa0c4838fc73bda5ee67f04625a5319a04ec16386b5ceafbf61
+
+Package: websocketd
+Architecture: aarch64
+Installed-Size: 7392
+Maintainer: @termux
+Version: 0.4.1-6
+Homepage: http://websocketd.com/
+Description: Turn any program that uses STDIN/STDOUT into a WebSocket server
+Filename: ./websocketd_0.4.1-6_aarch64.deb
+Size: 2122876
+MD5sum: 6c88d2cb300b3bdf6da5e98ba6da8f2b
+SHA1: 514d882d2df86b1e1e5a2eb9eb7a4cafe301deda
+SHA256: 5d28bae6d631f03dc272a0ca6d9a65ebb56e08d54c3c3b6e82b5568b419431d3
+
+Package: webtunnel
+Architecture: aarch64
+Installed-Size: 9540
+Maintainer: @termux
+Version: 0.0.7-2
+Homepage: https://torproject.org/
+Description: Pluggable Transport based on HTTP Upgrade(HTTPT)
+Filename: ./webtunnel_0.0.7-2_aarch64.deb
+Size: 1967848
+MD5sum: eea6450b23cd31ff9fa5a983791530f0
+SHA1: 2245b0f94a3ac7d9e4732f91f63c58e4e62c09b9
+SHA256: c9b38ec90307b7f80b6e7a96708ca0731b598fe3887d200f11f9b62fe4c51ca9
+
+Package: weechat-matrix-rs
+Architecture: aarch64
+Installed-Size: 17952
+Maintainer: @termux
+Version: 2022.10.04-3
+Homepage: https://github.com/poljar/weechat-matrix-rs
+Depends: weechat, openssl
+Description: Rust rewrite of the python weechat-matrix script
+Filename: ./weechat-matrix-rs_2022.10.04-3_aarch64.deb
+Size: 4147772
+MD5sum: 8a9a4cd9698ae4f8903f64d7735d4841
+SHA1: 42c20923ff99b33e4a9c3b1d697363c7a8e80678
+SHA256: bd6e503904a4bfd4f5ce1cf9c4da91d3b2ea17f4109cc2887ff3fc839ce97928
+
+Package: weggli
+Architecture: aarch64
+Installed-Size: 4196
+Maintainer: @termux
+Version: 0.2.4-4
+Homepage: https://github.com/googleprojectzero/weggli
+Depends: libc++
+Description: A fast and robust semantic search tool for C and C++ codebases
+Filename: ./weggli_0.2.4-4_aarch64.deb
+Size: 750792
+MD5sum: 8db9aa1fe887e70ef71c1935e3a94756
+SHA1: 62138e0dfb0c7822054f50bf4e8e48ecad9da2d2
+SHA256: 442abc150ff9e012f80525601464977730d36ca0c1fc64e2a98c4deb3ff3bd5f
+
+Package: wego
+Architecture: aarch64
+Installed-Size: 7380
+Maintainer: @termux
+Version: 2.4-2
+Homepage: https://github.com/schachmat/wego
+Description: weather app for the terminal
+Filename: ./wego_2.4-2_aarch64.deb
+Size: 2137420
+MD5sum: edba7c31cfd253386ad436fa95908307
+SHA1: e836d3bd1f4806a7b7a13be37881fcb052891e77
+SHA256: f3526d2aaeac325148eda8b3c7cd155c1be2758bb2f021f3325b0f003373b3f1
+
+Package: wget2-static
+Architecture: aarch64
+Installed-Size: 1216
+Maintainer: @termux
+Version: 2.3.0-1
+Homepage: https://gitlab.com/gnuwget/wget2
+Depends: wget2 (= 2.3.0-1)
+Description: Static libraries for wget2
+Filename: ./wget2-static_2.3.0-1_aarch64.deb
+Size: 230064
+MD5sum: 24f63edc8bef07cde8fc481ba3f4973c
+SHA1: 20d3649b5d0b965a0e34e8c0482fe865e33632f4
+SHA256: 8229ef0f547ce9455ec545157a3944715f6cabd1ab58bb2e1828169adf4c1e22
+
+Package: wget2
+Architecture: aarch64
+Installed-Size: 1484
+Maintainer: @termux
+Version: 2.3.0-1
+Homepage: https://gitlab.com/gnuwget/wget2
+Depends: brotli, gpgme, libandroid-glob, openssl, libiconv, libidn2, libnghttp2, pcre2, zlib, zstd
+Description: The successor of GNU Wget, a file and recursive website downloader
+Filename: ./wget2_2.3.0-1_aarch64.deb
+Size: 302272
+MD5sum: d6cc5fe4598d258e41a954bb18579ba3
+SHA1: 0c5928d1aa7bccb7a695d3a2ebacd2355cc5372d
+SHA256: 0bdc6683bc1cdcc2ab8aec90bbc11e4d5506735fdce87c645ccc0bd3d4657746
+
+Package: wgetpaste
+Architecture: all
+Installed-Size: 96
+Maintainer: @termux
+Version: 2.34-1
+Homepage: https://github.com/zlin/wgetpaste
+Depends: wget
+Suggests: xclip
+Description: wgetpaste is a shell script that allows its users to upload log.
+Filename: ./wgetpaste_2.34-1_all.deb
+Size: 14436
+MD5sum: e4cefe7bf38576d02bc6b9486e627612
+SHA1: cf402766241d96bd62bb4a21194af3c9b4869964
+SHA256: 381cfae9eb90ee1af2b9bd45b206b35f00f450178cb63ff447cf505e74a4d6ce
+
+Package: whitebox-tools
+Architecture: aarch64
+Installed-Size: 16028
+Maintainer: @termux
+Version: 2.4.0-2
+Homepage: https://github.com/jblindsay/whitebox-tools
+Description: An advanced geospatial data analysis platform
+Filename: ./whitebox-tools_2.4.0-2_aarch64.deb
+Size: 3531872
+MD5sum: 0b706b1bdca9bc2086bfdcab9efc35d1
+SHA1: 17dcc8029eb55cfac5a89553c5927d7b2b7838a9
+SHA256: b27320c513f59e063b75a0b86b743b696562fd192c7cf3e6c5a224bbebc0b176
+
+Package: whois
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 5.6.6-1
+Homepage: https://github.com/rfc1036/whois
+Depends: libcrypt, libiconv, libidn2
+Conflicts: inetutils (<< 1.9.4-13)
+Description: An intelligent Whois client
+Filename: ./whois_5.6.6-1_aarch64.deb
+Size: 38960
+MD5sum: 8241862f481addadafae03247b2f682d
+SHA1: 54b600f55fe7c1f6f2edc7670d68747526fded0f
+SHA256: 7abca5643ba44b0f14dc31eacb32cd277e2b8d9d531db07d9f5b1799bd800faf
+
+Package: wireguard-tools
+Architecture: aarch64
+Installed-Size: 176
+Maintainer: @termux
+Version: 1.0.20260223-1
+Homepage: https://www.wireguard.com
+Description: Tools for the WireGuard secure network tunnel
+Filename: ./wireguard-tools_1.0.20260223-1_aarch64.deb
+Size: 49184
+MD5sum: 4dc41fff8e53819eece2e96b8c640ffa
+SHA1: ad0afeb27fa230232d70b6c526e6a6dce0ee6358
+SHA256: 0663b03048afe1fa03b1a6e6d040781e62b789eb8b15d4a4b5cd0a4c4df89954
+
+Package: wireproxy
+Architecture: aarch64
+Installed-Size: 11036
+Maintainer: @termux
+Version: 1.1.3-2
+Homepage: https://github.com/pufferffish/wireproxy
+Description: Wireguard client that exposes itself as a socks5 proxy
+Filename: ./wireproxy_1.1.3-2_aarch64.deb
+Size: 2976868
+MD5sum: 904df76708518d1bc770a1ead93c5da2
+SHA1: e7ebffc3eba4e955510bfddd3626f1c2b102be8d
+SHA256: 8f3968ff3312d35efc6d2ffb0d653cf0c638aec64494b865729f007b0942ddb8
+
+Package: wiz
+Architecture: aarch64
+Installed-Size: 768
+Maintainer: @termux
+Version: 2025.04.10-1
+Homepage: http://wiz-lang.org/
+Depends: libc++
+Description: A high-level assembly language for writing homebrew software for retro console platforms
+Filename: ./wiz_2025.04.10-1_aarch64.deb
+Size: 224364
+MD5sum: f0e74a8463de5082cb70da66c943c43c
+SHA1: f73436746d246349ac6e96d64dc2661c47c20f7d
+SHA256: 8dfce0058797cb7fe34eff8b84e9a09a40316bb14f6f78eb8bef85fb85cdc0b3
+
+Package: woff2
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: @termux
+Version: 1.0.2-5
+Homepage: https://www.w3.org/TR/WOFF2/
+Depends: brotli, libc++
+Description: font compression reference code
+Filename: ./woff2_1.0.2-5_aarch64.deb
+Size: 67180
+MD5sum: 4b3eae4805b60cb422ef2a117e05a320
+SHA1: 77b5988c33db02bc87b3e3f2bf7ea2553562d034
+SHA256: 56027e5bd5bcf06d51d1d21799edf91b8091e1f245dd791b440afeaae3ac9a5d
+
+Package: wol
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 0.7.1-5
+Homepage: https://sourceforge.net/projects/wake-on-lan/
+Description: Program implementing Wake On LAN functionality
+Filename: ./wol_0.7.1-5_aarch64.deb
+Size: 13828
+MD5sum: 5f21888570690565a14ee97ab7d7275e
+SHA1: 3916aa45259dcc9bc09b49b47485ac2385424a1b
+SHA256: cf807e25f69f288851b9dbc4f4743b1de1f1959567b46492d8ec413905b1a480
+
+Package: wordgrinder
+Architecture: aarch64
+Installed-Size: 540
+Maintainer: @termux
+Version: 0.8-2
+Homepage: http://cowlark.com/wordgrinder/
+Depends: lua53, ncurses, zlib
+Description: A Unicode-aware character cell word processor
+Filename: ./wordgrinder_0.8-2_aarch64.deb
+Size: 104788
+MD5sum: 9646f2d121fb627337986dd2ee03d921
+SHA1: 60b0da1a43a60451e8b8be26476005eb9bb5b8b7
+SHA256: de8471d9fac384a4724e95e25378a121da1c7bbfbe9740984b0d422003ec1c10
+
+Package: wren
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: @termux
+Version: 0.4.0-3
+Homepage: https://wren.io/
+Depends: libuv
+Description: Small, fast, class-based concurrent scripting language interpreter
+Filename: ./wren_0.4.0-3_aarch64.deb
+Size: 62428
+MD5sum: 221ec4d3fe596f0f8ca6dcb616475c7e
+SHA1: 7e579415f9400640eff69610923e64b3899be283
+SHA256: c372728083096c965de2597f3f8d9bb370365a605fc802531053f0c37e64f352
+
+Package: wrk
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 4.2.0-2
+Homepage: https://github.com/wg/wrk
+Depends: openssl, luajit
+Description: Modern HTTP benchmarking tool
+Filename: ./wrk_4.2.0-2_aarch64.deb
+Size: 31324
+MD5sum: 3782587f36f070ba7375e93bc23e9817
+SHA1: 85157a5b83044a3164cced8ec5108faea9297830
+SHA256: dc2540afb16ac5ce5272712552a822879a520dd751eb514f46375b2bdf6c201f
+
+Package: wtfutil
+Architecture: aarch64
+Installed-Size: 75296
+Maintainer: @termux
+Version: 0.51.0-2
+Homepage: https://wtfutil.com/
+Description: The personal information dashboard for your terminal
+Filename: ./wtfutil_0.51.0-2_aarch64.deb
+Size: 13486188
+MD5sum: f3521f4b7f59606f4ea92e2401fc4d01
+SHA1: 0a6752458dab749a3a9198843e246dadb76e072f
+SHA256: 187546dd079aabcc8568e73c0e0af12b5d21a5f2b912d8b908486eccf53e0982
+
+Package: wuzz
+Architecture: aarch64
+Installed-Size: 9840
+Maintainer: @termux
+Version: 0.5.0-8
+Homepage: https://github.com/asciimoo/wuzz
+Description: Interactive command line tool for HTTP inspection
+Filename: ./wuzz_0.5.0-8_aarch64.deb
+Size: 2738184
+MD5sum: 327b51ebad9f7cb447c0f07a2efaa89b
+SHA1: 2f67a614acb092544d0a7682bb0905fc932b067c
+SHA256: bea7e731866db0f9dffd0e6989ec93dfbef5abdf031f6ab713f91d3a8794aaff
+
+Package: x11-repo
+Architecture: all
+Installed-Size: 52
+Maintainer: @termux
+Version: 8.4-2
+Homepage: https://github.com/termux/x11-packages
+Depends: termux-keyring
+Description: Package repository containing X11 programs and libraries
+Filename: ./x11-repo_8.4-2_all.deb
+Size: 1208
+MD5sum: f9ef408b4a4eb34227dfcea15828dd93
+SHA1: 28e92f3df0d5fab657d0115621e799368ce9a0bb
+SHA256: 539ee012aa457a61bfb708955f9d66184790a18a0b90e24386d7f14bbc6ed4ca
+
+Package: xcb-proto
+Architecture: all
+Installed-Size: 812
+Maintainer: @termux
+Version: 1.17.0-4
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Description: XML-XCB protocol descriptions
+Filename: ./xcb-proto_1.17.0-4_all.deb
+Size: 78612
+MD5sum: 686299e20e817a9e1d1c739afdbab85b
+SHA1: a52a7c892c6b36d9020d5d57ce17d3e6409f6935
+SHA256: 49f2af6a0b3bf0c70b74758fa34051b3a475ba8f798d82225f6477d25de57ea8
+
+Package: xdelta3-static
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 3.2.2-1
+Homepage: https://github.com/jmacd/xdelta
+Depends: xdelta3 (= 3.2.2-1)
+Description: Static libraries for xdelta3
+Filename: ./xdelta3-static_3.2.2-1_aarch64.deb
+Size: 32440
+MD5sum: 8980d267fdeac0d0684edc5a855bb6bc
+SHA1: 8ad80a1f4bf02935ab0abdb5940aa0f4e1e50c66
+SHA256: bfa8fca5a7cf304db001510bd7a6ee082b7813a1f261710a3971f458bb66ae68
+
+Package: xdelta3
+Architecture: aarch64
+Installed-Size: 368
+Maintainer: @termux
+Version: 3.2.2-1
+Homepage: https://github.com/jmacd/xdelta
+Depends: liblzma
+Description: xdelta3 - VCDIFF (RFC 3284) binary diff tool
+Filename: ./xdelta3_3.2.2-1_aarch64.deb
+Size: 105160
+MD5sum: 5bf42b8277c64cc7ceb01d3b0b4a9a2b
+SHA1: 9e0456d99a0234e572ddaa9dbd92fb29d6fb362a
+SHA256: 6a7c651bcdccd0b71f5ab63bb481b960951be8c21ed5738aac77aab1b5e35c54
+
+Package: xdg-user-dirs
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 0.20-1
+Homepage: https://www.freedesktop.org/wiki/Software/xdg-user-dirs
+Depends: libc++, libiconv
+Description: Manage user directories like ~/Desktop and ~/Music
+Filename: ./xdg-user-dirs_0.20-1_aarch64.deb
+Size: 9264
+MD5sum: 3e116ca1a75b0b1ae7d1e61d411424f0
+SHA1: c7ba1abb233e4f8b13453e86d22d9b0fb6cc8ac5
+SHA256: 10ff5e80c23edc1b5961fe66e46df3cd3475df5aed9ae336f3e90065c961f0a3
+
+Package: xh
+Architecture: aarch64
+Installed-Size: 10268
+Maintainer: @termux
+Version: 0.26.3-1
+Homepage: https://github.com/ducaale/xh
+Description: A friendly and fast tool for sending HTTP requests
+Filename: ./xh_0.26.3-1_aarch64.deb
+Size: 2986696
+MD5sum: 1d6b7548e68a88ada015b27bbf4196e8
+SHA1: ac04199da4eac1fcefd4aad52b4ef7ec132e6b13
+SHA256: 5730e546550100bbf0d86f6523dc2af998ad9582d08d0a821f52e5200dfe6f61
+
+Package: xmake
+Architecture: aarch64
+Installed-Size: 15680
+Maintainer: Ruki Wang @waruqi
+Version: 3.1.2-1
+Homepage: https://xmake.io/
+Depends: ncurses
+Description: A cross-platform build utility based on Lua
+Filename: ./xmake_3.1.2-1_aarch64.deb
+Size: 1139172
+MD5sum: acff6c86bf2f2fccbd1a40f228006041
+SHA1: e00ef1fa108f455d82280993008eda8a4b418c74
+SHA256: c540cfbe2a501a70493b4ece8e04406fb38edb9a25ca2add8427ff1a8dce4d6e
+
+Package: xmlstarlet
+Architecture: aarch64
+Installed-Size: 240
+Maintainer: @termux
+Version: 1.7.0-1
+Homepage: https://github.com/xmlstarlet/xmlstarlet
+Depends: libxslt, libxml2
+Description: Command line XML toolkit
+Filename: ./xmlstarlet_1.7.0-1_aarch64.deb
+Size: 42296
+MD5sum: efcdb6dbadc5a977fdfece88a52b35f5
+SHA1: af2d654b1024e909faf8bea473a3f9473ff67157
+SHA256: 6c2ca7f852bc11fba557663c021dd70dbd737ff91c7d77c75fd7dddc0e50ed2a
+
+Package: xtrans
+Architecture: all
+Installed-Size: 296
+Maintainer: @termux
+Version: 1.6.0-1
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+Filename: ./xtrans_1.6.0-1_all.deb
+Size: 39884
+MD5sum: fc4fad17539299a0ff41687b5e8f3c96
+SHA1: 88678f9ce5e1eb74a92412fdd85c3d71d57db605
+SHA256: f42b6617a92022d6bbdbd60e9c097daa0a5e1eb61001d01eeae781ffd512975a
+
+Package: zsh-completions
+Architecture: all
+Installed-Size: 1976
+Maintainer: @termux
+Version: 0.36.0-1
+Homepage: https://github.com/zsh-users/zsh-completions
+Depends: zsh
+Description: Additional completion definitions for Zsh
+Filename: ./zsh-completions_0.36.0-1_all.deb
+Size: 299132
+MD5sum: dcfd5fc2765c99a2b902a7577a129013
+SHA1: 4015a06984442b69ccd503cd4fd5e00aa5f0d114
+SHA256: 37f0c8aafcef2aefbd359da5acec08d79bd2ab4e6a18ca0c1ffc47bcf8bec266
+
+Package: zsh
+Architecture: aarch64
+Installed-Size: 9124
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 5.9.2-3
+Homepage: https://www.zsh.org
+Depends: libandroid-support, libcap, ncurses, termux-tools, pcre2
+Recommends: command-not-found, zsh-completions
+Description: Shell with lots of features
+Filename: ./zsh_5.9.2-3_aarch64.deb
+Size: 2016124
+MD5sum: fa0fc6ec7d145a9e0b07e1483765fecd
+SHA1: 4d0b268f4a070cdcd8c3790de1dd32b44cd6e9f8
+SHA256: c64f416998e8fa02fee7d335150a306844bcb49ff36fd1291662121ebfaf12b9
+
+Package: zssh
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 1.5c-3
+Homepage: https://zssh.sourceforge.net/
+Depends: libandroid-glob, lrzsz, openssh, readline
+Description: A program for interactively transferring files to a remote machine while using the secure shell (ssh)
+Filename: ./zssh_1.5c-3_aarch64.deb
+Size: 14156
+MD5sum: 98c90e9faea9f7d6406a3c3d59ac8f96
+SHA1: 34b084c77cde5adde49808903520fd109d034269
+SHA256: f1091d5c7a7f2a5b9792e4c482e25abbbc415cafbd2814e25c672c82ca54c58a
+
+Package: zsync
+Architecture: aarch64
+Installed-Size: 8232
+Maintainer: @termux
+Version: 0.8.0-2
+Homepage: https://zsync.moria.org.uk/
+Description: A file transfer program to download files from remote web servers
+Filename: ./zsync_0.8.0-2_aarch64.deb
+Size: 2036848
+MD5sum: d1031670dd889eea58ed5149164612b7
+SHA1: 3fb1ea00a964854dad07f1ada198fe563663f295
+SHA256: c5fbc6384a8b96450da79c0a2fcfe5e576ea360037837bd1609ec0be72027d42
+
+Package: zug
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: @termux
+Version: 0.1.2-1
+Homepage: https://sinusoid.es/zug/
+Depends: catch2, cmake
+Description: Transducers for C++
+Filename: ./zug_0.1.2-1_aarch64.deb
+Size: 31980
+MD5sum: 691a459ef041cdb93be8cbccc1065b0d
+SHA1: 62755efbc113770597d368c640df3ceecaf35f5a
+SHA256: 9fbcfec048ae167ae3b0f512010bdbaa1a684d4d05f71c5323fe71e49111516b
+
+Package: zziplib
+Architecture: aarch64
+Installed-Size: 428
+Maintainer: @termux
+Version: 0.13.80-2
+Homepage: https://zziplib.sourceforge.net/
+Depends: zlib
+Description: Provides read access to zipped files in a zip-archive, using compression based on free algorithms
+Filename: ./zziplib_0.13.80-2_aarch64.deb
+Size: 54792
+MD5sum: e099753da7bd977bca6bb3726f9a9685
+SHA1: 78e3d1d41d688ad730f56e145500268195e3cb72
+SHA256: 08c89b4aff7b45cb8f1ef321ebac35ed935665f39d68fd6c9a8c06d8fce89b69
+
+Package: zzuf-static
+Architecture: aarch64
+Installed-Size: 420
+Maintainer: @termux
+Version: 2022.05.29-2
+Homepage: http://caca.zoy.org/wiki/zzuf
+Depends: zzuf (= 2022.05.29-2)
+Description: Static libraries for zzuf
+Filename: ./zzuf-static_2022.05.29-2_aarch64.deb
+Size: 66852
+MD5sum: f659d9572489124e7141f230cfd1bd78
+SHA1: 1a8a67c6aa833774339fe70bae807af8107d93dd
+SHA256: 3ec0d5f4b7f9a97fdbb22e5e78b106c5d507b214b0a918023389fe011291b478
+
+Package: zzuf
+Architecture: aarch64
+Installed-Size: 204
+Maintainer: @termux
+Version: 2022.05.29-2
+Homepage: http://caca.zoy.org/wiki/zzuf
+Description: A transparent application input fuzzer
+Filename: ./zzuf_2022.05.29-2_aarch64.deb
+Size: 49892
+MD5sum: 0e3055ee58283a86c98b0e3842372eba
+SHA1: db81967595be0d8221828931793a1b697c1af313
+SHA256: a847109d858c4f398d0d6e1df41832d26c983f4c307c80abf3d5cf8e213e909c
