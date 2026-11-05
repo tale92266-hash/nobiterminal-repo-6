@@ -3753,6 +3753,47 @@ MD5sum: efcdb6dbadc5a977fdfece88a52b35f5
 SHA1: af2d654b1024e909faf8bea473a3f9473ff67157
 SHA256: 6c2ca7f852bc11fba557663c021dd70dbd737ff91c7d77c75fd7dddc0e50ed2a
 
+Package: xmlto
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: @termux
+Version: 0.0.29-3
+Homepage: https://pagure.io/xmlto/
+Depends: xsltproc
+Description: Convert xml to many other formats
+Filename: ./xmlto_0.0.29-3_aarch64.deb
+Size: 21304
+MD5sum: d8d791dfe9fcdb4ae9e902c32a569189
+SHA1: 6e0c8e8303d33b66044e8dfc6bf2e0267a901e00
+SHA256: 85407e56da9504fdef5882912b6948861ef3aa0963cdc794f3b3a7b01d447130
+
+Package: xorriso
+Architecture: aarch64
+Installed-Size: 2548
+Maintainer: @termux
+Version: 1:1.5.8.pl02-1
+Homepage: https://www.gnu.org/software/xorriso
+Depends: libiconv, libandroid-support, readline, libbz2, zlib
+Description: Tool for creating ISO files
+Filename: ./xorriso_1:1.5.8.pl02-1_aarch64.deb
+Size: 899704
+MD5sum: f8fa5453c73a73ecb40390826c26533f
+SHA1: 5909b75754750a1b704f6e079b90940ade2aef45
+SHA256: a283d00ef884517c1716ec2b6df206f4a66d3cd7af411389d4bf7ed0986671df
+
+Package: xsimd
+Architecture: aarch64
+Installed-Size: 2412
+Maintainer: @termux
+Version: 14.3.0-2
+Homepage: https://github.com/xtensor-stack/xsimd
+Description: C++ wrappers for SIMD intrinsics
+Filename: ./xsimd_14.3.0-2_aarch64.deb
+Size: 177172
+MD5sum: 29a797e006aca2b81cb25e51e5d9084e
+SHA1: 1438f3aeac83cad31037c0f18361433b7ec4a283
+SHA256: 6a898008719ab208ab2dc93c1cc3e90147bc336f48959c11a6edd74e23f0130b
+
 Package: xtrans
 Architecture: all
 Installed-Size: 296
@@ -3765,6 +3806,317 @@ Size: 39884
 MD5sum: fc4fad17539299a0ff41687b5e8f3c96
 SHA1: 88678f9ce5e1eb74a92412fdd85c3d71d57db605
 SHA256: f42b6617a92022d6bbdbd60e9c097daa0a5e1eb61001d01eeae781ffd512975a
+
+Package: yadm
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 3.5.0-1
+Homepage: https://yadm.io/
+Depends: git
+Description: Yet Another Dotfiles Manager
+Filename: ./yadm_3.5.0-1_aarch64.deb
+Size: 29164
+MD5sum: 845bd1af8afffb874d04bc0b35ee2c58
+SHA1: 424421bb882b913c1b7ea62ec89d2416c6ccb95a
+SHA256: fe64e0843e1833e6a4e7f9faeb36aa6754a742c45867403c9ef46e69c663956c
+
+Package: yara-static
+Architecture: aarch64
+Installed-Size: 900
+Maintainer: @termux
+Version: 4.6.0-1
+Homepage: https://github.com/VirusTotal/yara
+Depends: yara (= 4.6.0-1)
+Description: Static libraries for yara
+Filename: ./yara-static_4.6.0-1_aarch64.deb
+Size: 180768
+MD5sum: fe67af342697589738012287e39bafb5
+SHA1: 35e12c344730f7c5a9c26cc24007a1e299075668
+SHA256: 146480fbc65fe473672343ec752dcd674c098ee0cf76caf12d569b336fc7572a
+
+Package: yara
+Architecture: aarch64
+Installed-Size: 1232
+Maintainer: @termux
+Version: 4.6.0-1
+Homepage: https://github.com/VirusTotal/yara
+Breaks: yara-dev
+Depends: libandroid-posix-semaphore, libmagic, openssl
+Replaces: yara-dev
+Description: Tool aimed at helping malware researchers to identify and classify malware samples
+Filename: ./yara_4.6.0-1_aarch64.deb
+Size: 219164
+MD5sum: 9812246b090ed9f3a52d877fe9842332
+SHA1: 7746f612bea3a6615cc60cbc191fa7ebb86e6567
+SHA256: 09c78f94a718938b8d3ee1956c20e7e220f2d0999d30bd8dbd772f7a87305739
+
+Package: yasm-static
+Architecture: aarch64
+Installed-Size: 1424
+Maintainer: @termux
+Version: 1.3.0-8
+Homepage: https://yasm.tortall.net/
+Depends: yasm (= 1.3.0-8)
+Description: Static libraries for yasm
+Filename: ./yasm-static_1.3.0-8_aarch64.deb
+Size: 274240
+MD5sum: 20dc46f46ec789502d5f2ea1b20bf8ff
+SHA1: b5aa8991b57eef9adac7f4eb4a530d26fd5f2972
+SHA256: 508537d1027281c789ce9fba170b859652e4bc4986fd7e567665a1f9aa23fee0
+
+Package: yasm
+Architecture: aarch64
+Installed-Size: 2872
+Maintainer: @termux
+Version: 1.3.0-8
+Homepage: https://yasm.tortall.net/
+Breaks: yasm-dev
+Depends: libiconv
+Replaces: yasm-dev
+Description: Assembler supporting the x86 and AMD64 instruction sets
+Filename: ./yasm_1.3.0-8_aarch64.deb
+Size: 391792
+MD5sum: 7ca97869ae4725d1ea899b149a5aceb1
+SHA1: 343d2cbe1c3afe4caf03a0e0779389900579621c
+SHA256: 67251840ca818b097b73fd6dc65847dd2f8d84b61d21877d58e43d875612cbeb
+
+Package: yazi
+Architecture: aarch64
+Installed-Size: 31264
+Maintainer: @termux
+Version: 26.9.1-2
+Homepage: https://yazi-rs.github.io/
+Recommends: 7zip, chafa, fd, ffmpeg, fzf, imagemagick, jq, poppler, ripgrep, zoxide
+Description: Blazing fast terminal file manager written in Rust, based on async I/O
+Filename: ./yazi_26.9.1-2_aarch64.deb
+Size: 9823264
+MD5sum: 784787c562cb5963464b9381f4f26d40
+SHA1: 86957c3f0aa19c050427944ef7b21b5696474616
+SHA256: d987a02964193ddf965442edabd2226f096ff640768486c69e45dff8a4cf2027
+
+Package: yoga
+Architecture: aarch64
+Installed-Size: 524
+Maintainer: @termux
+Version: 3.2.1-1
+Homepage: https://www.yogalayout.dev/
+Depends: libc++
+Description: Embeddable layout engine targeting web standards
+Filename: ./yoga_3.2.1-1_aarch64.deb
+Size: 74848
+MD5sum: 0bda3d31f4a65040750f90b1e090312a
+SHA1: ae0c5818933f4b5484b9442c287fed014bf5eacb
+SHA256: 382762c6a65afe4c31a0bb1f5706bc66535363da1c35394c09b8a7b546cb0ac7
+
+Package: yosys
+Architecture: aarch64
+Installed-Size: 70440
+Maintainer: @termux
+Version: 0.70-1
+Homepage: https://yosyshq.net/yosys/
+Depends: graphviz, libandroid-glob, libandroid-spawn, libc++, libffi, ncurses, readline, tcl, zlib, python
+Description: A framework for RTL synthesis tools
+Filename: ./yosys_0.70-1_aarch64.deb
+Size: 16276204
+MD5sum: dddccfac710132790ae78ccfdcc57112
+SHA1: 7befb7475027a2442bcfd1442ef4b5e614b5dbf3
+SHA256: 68523fe0c476ec2131ece56183b97f567cff8e426e1ee97799f3d8c80c3a27ac
+
+Package: yq
+Architecture: aarch64
+Installed-Size: 14028
+Maintainer: @termux
+Version: 4.54.1-2
+Homepage: https://mikefarah.gitbook.io/yq/
+Replaces: xpup
+Description: A lightweight and portable command-line YAML, JSON and XML processor
+Filename: ./yq_4.54.1-2_aarch64.deb
+Size: 3820772
+MD5sum: 17e4f5413cd2757c4df3abb6c344cd81
+SHA1: 8ed1aae869ca1ccc6d44173a597dda63b4fdfdff
+SHA256: ba0afc24c80df512a6930ba1765c49fcb49cca21cebf4f37d38d149fc017812c
+
+Package: ytfzf
+Architecture: all
+Installed-Size: 232
+Maintainer: @termux
+Version: 2.6.2-1
+Homepage: https://github.com/pystardust/ytfzf
+Depends: curl, jq
+Recommends: fzf, mpv
+Description: A POSIX script that helps you find Youtube videos (without API)
+Filename: ./ytfzf_2.6.2-1_all.deb
+Size: 62504
+MD5sum: c37308a638b47d6733a29594bc930eab
+SHA1: 52127071f01542af91e139296e3dbcb986f0efea
+SHA256: 651ad74831aa918a74c3489626b49341bb36ae4c96c1ead5499a653f6f2f22cc
+
+Package: yuma123-static
+Architecture: aarch64
+Installed-Size: 14104
+Maintainer: @termux
+Version: 2.14-1
+Homepage: https://yuma123.org/
+Depends: yuma123 (= 2.14-1)
+Description: Static libraries for yuma123
+Filename: ./yuma123-static_2.14-1_aarch64.deb
+Size: 2151496
+MD5sum: cda1c7a813bff2d95c24f6fb94cdf10f
+SHA1: 0c80de20918501155e67313fe906dee0202e40aa
+SHA256: 576394bc7479da9815e602b6534eea96f0f917c66c225f5236c82ab77eb203a3
+
+Package: yuma123
+Architecture: aarch64
+Installed-Size: 4968
+Maintainer: @termux
+Version: 2.14-1
+Homepage: https://yuma123.org/
+Depends: libssh2, libxml2, openssl, readline
+Description: Provides an opensource YANG API in C
+Filename: ./yuma123_2.14-1_aarch64.deb
+Size: 844328
+MD5sum: 87485afa99c84c5c064cd7ed1edde852
+SHA1: 93e2b7e48f5404c60ee2a71269eff1bcfa2f3f6a
+SHA256: 99a56890e09124b4e059055163fb638d2aee6c26e84666929c8992b7747cea9e
+
+Package: z-push
+Architecture: all
+Installed-Size: 4416
+Maintainer: @termux
+Version: 2.7.7-1
+Homepage: https://z-push.org/
+Depends: apache2, php
+Description: An open-source application to synchronize ActiveSync compatible devices and Outlook
+Filename: ./z-push_2.7.7-1_all.deb
+Size: 506496
+MD5sum: 958141cd500d76636a17f78b9e8e71ce
+SHA1: 87e4117e428161b6824d3849a595bdff34ec55b3
+SHA256: 80c82fdef9d0f5f3a85bc69d2eaebc96d5ae202a990885499aba0147b819e13f
+
+Package: z3
+Architecture: aarch64
+Installed-Size: 53444
+Maintainer: @termux
+Version: 5.3.3-1
+Homepage: https://github.com/Z3Prover/z3
+Depends: libc++
+Description: Z3 is a theorem prover from Microsoft Research
+Filename: ./z3_5.3.3-1_aarch64.deb
+Size: 13675984
+MD5sum: 5029eebf022a5fa7af22c8272b50cc76
+SHA1: b6acde1d0573a964a87644755b947a0c815aefb6
+SHA256: 7ac98c9ffe8b160ef7937cf7c2c2dd213c8729ec7da75d97719939ee2c5c09a0
+
+Package: zbar-static
+Architecture: aarch64
+Installed-Size: 332
+Maintainer: @termux
+Version: 0.23.95-1
+Homepage: https://github.com/mchehab/zbar
+Depends: zbar (= 0.23.95-1)
+Description: Static libraries for zbar
+Filename: ./zbar-static_0.23.95-1_aarch64.deb
+Size: 87460
+MD5sum: d57bd5c41f3982a4a72a4e3bf583c8e1
+SHA1: 3b05d1935030163cffd6d55f0dcec1fd03b460b1
+SHA256: 1de3bf9005f5cb8d45c9026630a4258d9348aa26124068f52e98c7482b4f30a0
+
+Package: zbar
+Architecture: aarch64
+Installed-Size: 448
+Maintainer: @termux
+Version: 0.23.95-1
+Homepage: https://github.com/mchehab/zbar
+Breaks: zbar-dev
+Depends: imagemagick, libiconv, libjpeg-turbo
+Replaces: zbar-dev
+Description: Software suite for reading bar codes from various sources
+Filename: ./zbar_0.23.95-1_aarch64.deb
+Size: 119648
+MD5sum: 4e30a2f1c1ee86fe7dcb31f0b9aaaa0f
+SHA1: b8996813a70e39a475b6c5c941e0cd6286d4d88e
+SHA256: fb9273a18586190a50e3896af0ace28c707c1e326a9587af101ed698efcf6524
+
+Package: zls
+Architecture: aarch64
+Installed-Size: 2980
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.17.0-1
+Homepage: https://github.com/zigtools/zls
+Description: Zig language server
+Filename: ./zls_0.17.0-1_aarch64.deb
+Size: 1004652
+MD5sum: 78dd04da14aace443262aff6bf535a51
+SHA1: 71243810bb644397c038c457965bfa1c22c39a5d
+SHA256: 41a9026d5b1a0540c580676909b845ba8a7bc9c44fae445b1c0bfad55f41624e
+
+Package: znc
+Architecture: aarch64
+Installed-Size: 8824
+Maintainer: @termux
+Version: 1.10.3-1
+Homepage: https://znc.in/
+Depends: libc++, libicu, libsasl, openssl, zlib
+Description: An advanced IRC bouncer
+Filename: ./znc_1.10.3-1_aarch64.deb
+Size: 1605552
+MD5sum: 533d97c9f3091c8318c8c72080fb1127
+SHA1: 91ae3af67e11b8ba1398f922c27a3807c0e2fc93
+SHA256: 2500f30a7b659bbbccbae1776891fa79d3f2cb7c98aa0e24bc6199b4daa0bd98
+
+Package: zola
+Architecture: aarch64
+Installed-Size: 44036
+Maintainer: @termux
+Version: 0.23.6-1
+Homepage: https://github.com/getzola/zola
+Description: A fast static site generator in a single binary with everything built-in.
+Filename: ./zola_0.23.6-1_aarch64.deb
+Size: 10413868
+MD5sum: 1c36430358b9e3cf29893aee6017dcc3
+SHA1: d83ebbdb1c277b50826317bd466123553452855f
+SHA256: 4bb926e29b7a1c2f4625dbd18df2c87c158a4e95c65e9291e9b6200428243f0e
+
+Package: zoxide
+Architecture: aarch64
+Installed-Size: 1124
+Maintainer: @termux
+Version: 0.10.0-1
+Homepage: https://github.com/ajeetdsouza/zoxide
+Description: A faster way to navigate your filesystem
+Filename: ./zoxide_0.10.0-1_aarch64.deb
+Size: 371144
+MD5sum: 8c08324d9dafe90b5f57a1e8e07791be
+SHA1: b1d434b32b092b7123c5ef63a1223d71a1b9749e
+SHA256: 3693eb9aa8440f73171f5fb3514f137c3e0faf588eae71051abe4b4c5f17a68f
+
+Package: zpaq
+Architecture: aarch64
+Installed-Size: 404
+Maintainer: @termux
+Version: 7.15-2
+Homepage: http://mattmahoney.net/dc/zpaq.html
+Depends: libc++
+Description: Programmable file compressor, library and utilities. Based on the PAQ compression algorithm
+Filename: ./zpaq_7.15-2_aarch64.deb
+Size: 150464
+MD5sum: 60cb9ec8ac907b26efcdcf5e11162433
+SHA1: 325ff3943f7e38d0ca0c30c7e52cd784fedc24ba
+SHA256: 4301019e0693750baf4dc632c6f7c68cc3d22dbadbc4378fb058144af13945b7
+
+Package: zrok
+Architecture: aarch64
+Installed-Size: 179704
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 1.1.13-2
+Homepage: https://zrok.io/
+Description: An open source sharing solution built on OpenZiti.
+Filename: ./zrok_1.1.13-2_aarch64.deb
+Size: 38063996
+MD5sum: 509bb894a0f11254cc7c17de29baa6cc
+SHA1: 80c2423e1b02225197618d2c6341d9ed8597a776
+SHA256: c767bab9c249519cb4ca383466ae89397afaf8f72ed0dd9b9b9c7caf6f7d958a
 
 Package: zsh-completions
 Architecture: all
