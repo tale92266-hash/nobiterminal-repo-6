@@ -56,6 +56,282 @@ MD5sum: f2d9b1f01cab78752c77f91723c54132
 SHA1: 5497cef5139a48a39c743b3b6816075f21d0746b
 SHA256: 8a7b16af2c01f6b969dd64f7791fd0610fb901d3206e44a6ec3eb4ebaaf1c17d
 
+Package: et
+Architecture: aarch64
+Installed-Size: 7412
+Maintainer: @termux
+Version: 7.1.1-1
+Homepage: https://eternalterminal.dev
+Depends: abseil-cpp, libc++, libsodium, openssl, protobuf, zlib
+Description: A remote shell that automatically reconnects without interrupting the session
+Filename: ./et_7.1.1-1_aarch64.deb
+Size: 1226252
+MD5sum: 4e41870a7930ba496842cdbd07facab0
+SHA1: 2fcbfd98e056731b94462079e94516f0d10507e5
+SHA256: 15406ffaf8c7bb27d0d017deeadf67805bfaf5bb975a531c0cb07ad314020da8
+
+Package: flyctl
+Architecture: aarch64
+Installed-Size: 79520
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.5.3-1
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
+Filename: ./flyctl_0.5.3-1_aarch64.deb
+Size: 17386628
+MD5sum: 9315829d5b4799a33299f893ec7221d0
+SHA1: 627e013883545ce217b7764bb733dca5bc7dd4a6
+SHA256: cda3251f32aa55be2f3652a9fb507e3df097de5460976d631314ea61449d534c
+
+Package: gl2ps
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: @termux
+Version: 1.4.3-1
+Homepage: https://www.geuz.org/gl2ps/
+Depends: libpng, opengl, zlib
+Description: An OpenGL to PostScript printing library
+Filename: ./gl2ps_1.4.3-1_aarch64.deb
+Size: 287060
+MD5sum: 4c9c4c2247d9beb4d7f02752416ac568
+SHA1: 760d3d294cc7ccb749eda358d4f33418b8bce817
+SHA256: 8c3c32fb185589a8afca8791e57f2a526ed57ce9ab600e585c9fab47a372cd5b
+
+Package: glab-cli
+Architecture: aarch64
+Installed-Size: 50608
+Maintainer: @termux
+Version: 1.128.0-1
+Homepage: https://gitlab.com/gitlab-org/cli
+Description: A GitLab CLI tool bringing GitLab to your command line
+Filename: ./glab-cli_1.128.0-1_aarch64.deb
+Size: 12108552
+MD5sum: 54fd6f35783dee8d297532f6521600db
+SHA1: c131d83fff6849a5c91d6c882f3d310063c06a1f
+SHA256: 097f65bdae98b3dd4e81081f5ce15b0e262217e5181b81edf944cba64963b51c
+
+Package: gost
+Architecture: aarch64
+Installed-Size: 49836
+Maintainer: @ian4hu
+Version: 3.3.3-1
+Homepage: https://github.com/go-gost/gost
+Description: GO Simple Tunnel - a simple tunnel written in golang
+Filename: ./gost_3.3.3-1_aarch64.deb
+Size: 11139828
+MD5sum: b72301f8c8c7a0a13aa05b9ced9b33dc
+SHA1: 3ccc5b733a64a292e1406a9df7b5689514fa5c0d
+SHA256: a243e1929b21f47daebed69c2cc92982caaaac17e29b4a9a40ddb354d779edb5
+
+Package: libblosc2
+Architecture: aarch64
+Installed-Size: 1008
+Maintainer: @termux
+Version: 3.4.1-1
+Homepage: https://www.blosc.org
+Depends: liblz4, zlib, zstd
+Description: A blocking, shuffling and loss-less compression library
+Filename: ./libblosc2_3.4.1-1_aarch64.deb
+Size: 270756
+MD5sum: 0fc0819164ccd0eaef51f2b19e9aba56
+SHA1: 1e7b8375602591af609a53266032e4127f6da8f4
+SHA256: f732dff288a7d3c5f30fe003270f452f6e197c3db9c0491c517bc65b1d38d1d7
+
+Package: llama-cpp-backend-opencl
+Architecture: aarch64
+Installed-Size: 3936
+Maintainer: @termux
+Version: 0.9.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: llama-cpp (= 0.9.0-1)
+Recommends: ocl-icd
+Suggests: opencl-vendor-driver | clvk
+Description: OpenCL Backend for LLaMA.cpp
+Filename: ./llama-cpp-backend-opencl_0.9.0-1_aarch64.deb
+Size: 542688
+MD5sum: 0d822b584224a0d0ed3cc5e7b0d1d724
+SHA1: 29c4643e2251c4cd15aedfb033072e4dd6c38e59
+SHA256: 974e9398a58d22af104101e1ca06c7e623d2eaf4eb22f5cf61f00637ea94b3ef
+
+Package: llama-cpp-backend-vulkan
+Architecture: aarch64
+Installed-Size: 26380
+Maintainer: @termux
+Version: 0.9.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: llama-cpp (= 0.9.0-1)
+Recommends: vulkan-loader
+Suggests: vulkan-loader-generic, mesa-vulkan-icd-freedreno
+Description: Vulkan Backend for LLaMA.cpp
+Filename: ./llama-cpp-backend-vulkan_0.9.0-1_aarch64.deb
+Size: 2544564
+MD5sum: 2e91ea3acea747511e6029d7dce20dc3
+SHA1: 2c2d7007a04ddc94cdd6c4b03df44ae9a581d256
+SHA256: d0f68151de08c460c69366176381578bbbc89fd44e9271723ed7c168fc83c5b1
+
+Package: llama-cpp
+Architecture: aarch64
+Installed-Size: 22228
+Maintainer: @termux
+Version: 0.9.0-1
+Homepage: https://github.com/ggml-org/llama.cpp
+Depends: libandroid-spawn, libc++, libcurl
+Suggests: llama-cpp-backend-vulkan, llama-cpp-backend-opencl
+Description: LLM inference in C/C++
+Filename: ./llama-cpp_0.9.0-1_aarch64.deb
+Size: 7625608
+MD5sum: b40c113cea538b422adb97bb60c663f4
+SHA1: 67d48edb0f22c96caa93f43e8aa70a9d36e4df12
+SHA256: 62deef6b0e0beaba06848b544dd444d55a93e9738e851b280b690095129c4a48
+
+Package: luau
+Architecture: aarch64
+Installed-Size: 14584
+Maintainer: @termux
+Version: 0.745-1
+Homepage: https://github.com/luau-lang/luau
+Description: A small, fast, and embeddable programming language based on Lua with a gradual type system.
+Filename: ./luau_0.745-1_aarch64.deb
+Size: 2386708
+MD5sum: bd6a1914b97d07dce612938133d52ce9
+SHA1: 764c93ea9e4110e6ba76918fa523ecda0860b4ed
+SHA256: 94c26b53524f4e9e6ba4d2fe1b4a920939d9417865ad58dda27f172e8958b899
+
+Package: lux-cli
+Architecture: aarch64
+Installed-Size: 27120
+Maintainer: @termux
+Version: 0.53.2-1
+Homepage: https://lux.lumen-labs.org
+Depends: bzip2, gpgme, libgit2, libgpg-error, lua54, openssl, xz-utils
+Provides: lx
+Description: A package manager for Lua, similar to luarocks
+Filename: ./lux-cli_0.53.2-1_aarch64.deb
+Size: 8169164
+MD5sum: 8c0225bd156aea9912337f26dca99a9e
+SHA1: 80393e211d9356aea222d64d6b52d6bbf4d92d56
+SHA256: 8f3efbe5d1385b6ece9ad816a9c7abb50957dd071d3a02fbe446b9c70f53c9fc
+
+Package: mailpit
+Architecture: aarch64
+Installed-Size: 26804
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.33.0-1
+Homepage: https://mailpit.axllent.org
+Description: An email and SMTP testing tool with API for developers
+Filename: ./mailpit_1.33.0-1_aarch64.deb
+Size: 7442184
+MD5sum: 148f74763eb0fad310a47df0b469b8a4
+SHA1: c25e4fd9c005e0292ca30c9476a017093cb96734
+SHA256: a8835b293ca3492519ac74c8e4df3cef7bd449469f33b4a0a6b78e373bac1a37
+
+Package: mtools
+Architecture: aarch64
+Installed-Size: 468
+Maintainer: @termux
+Version: 4.0.50-1
+Homepage: https://www.gnu.org/software/mtools/
+Depends: libandroid-support, libiconv
+Description: Tool for manipulating FAT images
+Filename: ./mtools_4.0.50-1_aarch64.deb
+Size: 137876
+MD5sum: 4adc9599772bd25390d87c73e2c7d22e
+SHA1: 4322141a656b2a3c5202f58dca206fafbc00b193
+SHA256: 4ba591168ea86a448d2df9760007f3dcaedcd5c3b6e1718fc5a76ee2519c5e98
+
+Package: mympd
+Architecture: aarch64
+Installed-Size: 1680
+Maintainer: @termux
+Version: 26.1.2-1
+Homepage: https://jcorporation.github.io/myMPD/
+Depends: libflac, libid3tag, lua54, openssl, pcre2, resolv-conf
+Description: A standalone and lightweight web-based MPD client
+Filename: ./mympd_26.1.2-1_aarch64.deb
+Size: 822172
+MD5sum: 51b48a3e8e07f2ee29b3fab14e746a1d
+SHA1: 0cf8a61eed450b5072b721626911bb409f7764ff
+SHA256: 643de9d3f904742906dc32379b17efe4157ace8f44cbbf45defa841f44ac7266
+
+Package: neocmakelsp
+Architecture: aarch64
+Installed-Size: 8776
+Maintainer: @termux
+Version: 0.12.0-1
+Homepage: https://neocmakelsp.github.io/
+Depends: cmake
+Description: a cmake lsp based on tower-lsp and treesitter
+Filename: ./neocmakelsp_0.12.0-1_aarch64.deb
+Size: 2491436
+MD5sum: e934460dc4b2c9a29da2e6ddf5bcf855
+SHA1: 3056fb2b653bd1836112f8f40d2b71cecfcb01ab
+SHA256: a3274abd1fd4b95f11e4c5ae496a377b3d3710c9dca6f17a5544d5cdc0f81637
+
+Package: neovim-nightly
+Architecture: aarch64
+Installed-Size: 33752
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.13.0~dev-2012+gb4d549f439-1
+Homepage: https://neovim.io/
+Breaks: neovim
+Depends: libandroid-support, libiconv, libmsgpack, libunibilium, libuv, libvterm (>= 1:0.3-0), lua51-lpeg, luajit, luv, tree-sitter, tree-sitter-parsers, utf8proc
+Conflicts: neovim
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim-nightly)
+Filename: ./neovim-nightly_0.13.0~dev-2012+gb4d549f439-1_aarch64.deb
+Size: 6243548
+MD5sum: 1695b9cbd3214e461c83ad6b1bc89e5a
+SHA1: 3485de9c3660df275f9d3eb092a9c36583a0910f
+SHA256: d56e287540c19454c8b2d2b69c3af5cec936a42c89ce63c02663fceee846735d
+
+Package: netcat-openbsd
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.239-1-1
+Homepage: https://packages.debian.org/sid/netcat-openbsd
+Depends: libbsd
+Provides: nc, ncat, netcat
+Description: TCP/IP swiss army knife. OpenBSD variant.
+Filename: ./netcat-openbsd_1.239-1-1_aarch64.deb
+Size: 21316
+MD5sum: db1ac571567392dab05ccd62aa8b54cf
+SHA1: c897fc53bfa1a687891e90974bf45458a159496f
+SHA256: 291670d2a2584ce21a27a1cbb2fb36674d588962db0dcf63e765a46ca898b9bb
+
+Package: nodejs
+Architecture: aarch64
+Installed-Size: 51744
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 26.13.0-1
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib, libffi
+Conflicts: nodejs-lts, nodejs-current
+Recommends: npm
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: ./nodejs_26.13.0-1_aarch64.deb
+Size: 10684544
+MD5sum: 8690cc36483006675a898f12c9587a72
+SHA1: 7a97e18f8354087b015fdb86b812cf15dc748dfc
+SHA256: 075c85410a58184a5a82d59e34f5379d9b5f167e1c795ac299d90654a104f46a
+
+Package: proot
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: Michal Bednarski @michalbednarski
+Version: 5.1.107.102-1
+Homepage: https://proot-me.github.io/
+Depends: libandroid-shmem, libtalloc
+Suggests: proot-distro
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Filename: ./proot_5.1.107.102-1_aarch64.deb
+Size: 103088
+MD5sum: 6cfa2a3a9b5c1cd19746194528bbaf83
+SHA1: cb775857622f539b9d9233726dc66afec55ce08c
+SHA256: 21e669825fd1b3a26d3745df56cf0a359a52d13265e30ede32d946e6ca5dc7f6
+
 Package: python-ruff
 Architecture: aarch64
 Installed-Size: 532
@@ -86,6 +362,34 @@ Size: 15204
 MD5sum: c3848cb9f5c735d186f51a91fee9dba2
 SHA1: fa3134cdb45515329e9beab4d9899e2e858f2106
 SHA256: 737ad2d6ff94fa3c3012ed1e7c9b3b4dde246d2a73505301ff80b452ba6c551e
+
+Package: rmlint
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: @termux
+Version: 2.11.0-1
+Homepage: https://github.com/sahib/rmlint
+Depends: glib, json-glib, libblkid, libelf
+Description: Extremely fast tool to find space waste and duplicate files
+Filename: ./rmlint_2.11.0-1_aarch64.deb
+Size: 129252
+MD5sum: 83fe2f7d3460337f30f63c935db1961d
+SHA1: 780b34c6e243447fe60e0cdfb959fbfa0a91fac5
+SHA256: c9a7995e8bc4cf4f0d32941a71937634ec7083f39cc30749df4010ce57469790
+
+Package: rolldown
+Architecture: aarch64
+Installed-Size: 157588
+Maintainer: @termux
+Version: 1.2.16-1
+Homepage: https://rolldown.rs/
+Depends: nodejs | nodejs-lts, yuku
+Description: Fast JavaScript/TypeScript bundler in Rust with Rollup-compatible API
+Filename: ./rolldown_1.2.16-1_aarch64.deb
+Size: 23261288
+MD5sum: aa7fbc3fd10418fcd5e284293c8aadb0
+SHA1: 9e8e8b549083cb053a511072af951b05f6e7210e
+SHA256: 8f2f4502d7922936110e42954d0e8749b5c1d0eec58edcdf12c474ed42c2e12d
 
 Package: rtorrent
 Architecture: aarch64
@@ -128,6 +432,33 @@ MD5sum: dddd16d7030a664862311bb17df06869
 SHA1: 8ccc1de76f453d1d7128518881a89dd927a37112
 SHA256: 3eda762951ccf34b7c4df8697de2ba551d1e950325f931f4a59ae7a0ebb37af2
 
+Package: rush
+Architecture: aarch64
+Installed-Size: 10884
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 0.11.1-1
+Homepage: https://github.com/shenwei356/rush
+Description: A cross-platform command-line tool for executing jobs in parallel
+Filename: ./rush_0.11.1-1_aarch64.deb
+Size: 2955316
+MD5sum: 0bcf243905f1b744aa31d451d2e2f630
+SHA1: 4a436974f84382ef2ea896682aefd2157a68571e
+SHA256: c45165fea68df72306d9dd57b30cc99147ff754cc4d34bebfba24c32e2de3dc8
+
+Package: rust-analyzer
+Architecture: aarch64
+Installed-Size: 35536
+Maintainer: @termux
+Version: 20261102-1
+Homepage: https://rust-analyzer.github.io/
+Depends: rust-src
+Description: A Rust compiler front-end for IDEs
+Filename: ./rust-analyzer_20261102-1_aarch64.deb
+Size: 8151744
+MD5sum: 2559ad70d83318911e106e2a95b9ae75
+SHA1: e48c0f3471ad9a9e59db8ba0b69f3e458484e585
+SHA256: 467444dd109a5d318a984e4b1a8b7a539ac398030d0813e0d86b6a85eaee2c62
+
 Package: rust-bindgen
 Architecture: aarch64
 Installed-Size: 6460
@@ -140,6 +471,176 @@ Size: 1657892
 MD5sum: d4a84e0bf01e259ac0e6006678665689
 SHA1: d0b36a57ecc5eca30cbf32892cb121f590ccdc83
 SHA256: 52f2a74c096744bb1ae07033569efba36d1b5ee60cfe8d55f1f1f1a7c2d5ad14
+
+Package: rust-docs
+Architecture: all
+Installed-Size: 906676
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Description: Rust documentation
+Filename: ./rust-docs_1.99.1-1_all.deb
+Size: 33513712
+MD5sum: 6128eeacb29e1366f003a2a3f3f98575
+SHA1: 2d3064366ba792d1ec7a57bdf90fcf6ed1bf65cc
+SHA256: 38b67ba04e4628e14a52e2754ec0c2e63b628e5df54787c133babd3209c7b10c
+
+Package: rust-src
+Architecture: all
+Installed-Size: 84040
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Rust source code files
+Filename: ./rust-src_1.99.1-1_all.deb
+Size: 6220700
+MD5sum: 11035544efb027b92ea6fad19361f4fa
+SHA1: e6ba304bc06c7243146a84941dc31d67a73fa078
+SHA256: 2b33be4ae7492b1d67906616a76633c93b320821085d88c71009e6ce631a47e4
+
+Package: rust-std-aarch64-linux-android
+Architecture: aarch64
+Installed-Size: 24908
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Component files for target aarch64-linux-android
+Filename: ./rust-std-aarch64-linux-android_1.99.1-1_aarch64.deb
+Size: 4790028
+MD5sum: af945b07f5a06ef074a5adef79d4636e
+SHA1: 465640f83d8a875c3c145523ffa68997a6a28cdc
+SHA256: c3572214498a603456a897366a724679cd9000e5e66c7955919b632e89cfe334
+
+Package: rust-std-armv7-linux-androideabi
+Architecture: aarch64
+Installed-Size: 15088
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Component files for target armv7-linux-androideabi
+Filename: ./rust-std-armv7-linux-androideabi_1.99.1-1_aarch64.deb
+Size: 3300724
+MD5sum: 041e3652df1d5bee23a732cc0b8385b3
+SHA1: 87d57961c5155a9e82219d6c15ec70e88a85dfae
+SHA256: ccc8097abc66a8e82e143d2ae56d960c6e7b08128e3d97279ab01e53e16c1ca8
+
+Package: rust-std-i686-linux-android
+Architecture: aarch64
+Installed-Size: 14572
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Component files for target i686-linux-android
+Filename: ./rust-std-i686-linux-android_1.99.1-1_aarch64.deb
+Size: 3307716
+MD5sum: 26c73cad726e90d1adacaf4cabb5b149
+SHA1: 7bb5b8abe341db348b094cff28a5aa6c6195f7bb
+SHA256: 44be72f658e22a21971af9374fdc0465a7b386d97329fefd1ef51f338744ce35
+
+Package: rust-std-wasm32-unknown-unknown
+Architecture: all
+Installed-Size: 89892
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust-std-wasm32 (<< 1.74.1-1)
+Replaces: rust-std-wasm32 (<< 1.74.1-1)
+Description: Component files for target wasm32-unknown-unknown
+Filename: ./rust-std-wasm32-unknown-unknown_1.99.1-1_all.deb
+Size: 21053288
+MD5sum: 05593fb46c7f2fa946e8b8ffb5dbeb03
+SHA1: 9d0aaf9810394dcebc1dd24217ea372969ddc26d
+SHA256: 4ee1d57296e84bea5e1645edbc3233e08a8b2733bda464f5d6b0472e6cfd52ed
+
+Package: rust-std-wasm32-wasip1
+Architecture: all
+Installed-Size: 94532
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Description: Component files for target wasm32-wasip1
+Filename: ./rust-std-wasm32-wasip1_1.99.1-1_all.deb
+Size: 22283124
+MD5sum: 8d2fec87f69e7d7e44348c63aa3c9d7b
+SHA1: ee9a7cd3c440f973534c0b5beca7705d427afca7
+SHA256: 5e64881157a1b3274d29a1f7c8bf7704bb69abff189893287e8cac98735905bd
+
+Package: rust-std-wasm32-wasip2
+Architecture: all
+Installed-Size: 97240
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Description: Component files for target wasm32-wasip2
+Filename: ./rust-std-wasm32-wasip2_1.99.1-1_all.deb
+Size: 22885036
+MD5sum: 907ccffe61346cbf923264b6dfe099c9
+SHA1: 9c1e006cf72f0c3967beec1b605cafca6ed00490
+SHA256: 2c2f2d7f40f5fa9b9ed389e0bf5ae13454d8a327863168a834f15a6b27d115f6
+
+Package: rust-std-wasm32-wasip3
+Architecture: all
+Installed-Size: 97696
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Description: Component files for target wasm32-wasip3
+Filename: ./rust-std-wasm32-wasip3_1.99.1-1_all.deb
+Size: 22990172
+MD5sum: db18d48fbb8db0bfa1af9de1ee093eca
+SHA1: ca00fbdf4c03302d2b1a89c3974d0dea92f4e5b5
+SHA256: c0334a286ad4dca63d11293d3c8baf5ae978e7d0b87930d5e749cd5b87bff2f7
+
+Package: rust-std-wasm32v1-none
+Architecture: all
+Installed-Size: 57176
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Description: Component files for target wasm32v1-none
+Filename: ./rust-std-wasm32v1-none_1.99.1-1_all.deb
+Size: 12367980
+MD5sum: c08d6e727d33b4c451132257e9e3fba6
+SHA1: 44970c1c491aaed9aaa2cd02e4a7519703ed8248
+SHA256: fad747e8362cfe2866ddf2cb538fba6b37fba2ad23d3f66bcb464e7597b07d5d
+
+Package: rust-std-x86-64-linux-android
+Architecture: aarch64
+Installed-Size: 15948
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Component files for target x86_64-linux-android
+Filename: ./rust-std-x86-64-linux-android_1.99.1-1_aarch64.deb
+Size: 3206028
+MD5sum: 399cdf4a137b09c06586d59676c9fa8e
+SHA1: 96015342707dec0bae83ce222ccab4b18fe8e587
+SHA256: 3be6d24be533f0554c6a316d9a079d65ac85201f2dc51769c6d20963bbb45202
+
+Package: rustc-src
+Architecture: all
+Installed-Size: 43580
+Maintainer: @termux
+Version: 1.99.1-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Rust compiler source code files
+Filename: ./rustc-src_1.99.1-1_all.deb
+Size: 5632716
+MD5sum: 3c4ffd2248fb6ec1f44c4a55cb327459
+SHA1: 44c37d4ce8ec19aabc2ceb08afb9f7c1bc7c92c5
+SHA256: 3b9c3402e99fe8a43ada1a737661e083bf23737d55ac5a48fc4cb34eeb72ae63
 
 Package: rustscan
 Architecture: aarch64
@@ -184,6 +685,20 @@ Size: 1152628
 MD5sum: fe158afae4630d019013c4e784501627
 SHA1: 22c1f41bffcdb58402a079a34eb4a41bc25318ba
 SHA256: 31a0a7b02932617344e1a1c9049a33a0d0a94ad0455fa3426379beda241533cc
+
+Package: samba
+Architecture: aarch64
+Installed-Size: 29160
+Maintainer: @termux
+Version: 4.25.1-1
+Homepage: https://www.samba.org/
+Depends: krb5, libandroid-execinfo, libandroid-spawn, libbsd, libcap, libcrypt, libgnutls, libiconv, libicu, libpopt, libtalloc, libtasn1, libtirpc, ncurses, openssl, readline, tdb-tools, zlib
+Description: SMB/CIFS fileserver
+Filename: ./samba_4.25.1-1_aarch64.deb
+Size: 6934516
+MD5sum: 3d1cc0e8eb518597ebbb988cb516a5a3
+SHA1: 60c6d6e1f7738630c9e720369b7128dfa1a120c6
+SHA256: 068268a9154095cae09bb93f4d2415e015aebdbe1777b8359f32129e2f0dabf6
 
 Package: scrub
 Architecture: aarch64
@@ -350,6 +865,20 @@ Size: 437820
 MD5sum: c776ef3c862e28ce90dd7f84585e8827
 SHA1: 6739d8b5aaa075464e0d088c4ff85703924a8bb4
 SHA256: 6f1a31b4b86563797961493360a3891cd780a1c5a8c64d18595cf47efea7871a
+
+Package: simdjson
+Architecture: aarch64
+Installed-Size: 10112
+Maintainer: @termux
+Version: 5.1.1-1
+Homepage: https://simdjson.org/
+Depends: libc++
+Description: A C++ library to see how fast we can parse JSON with complete validation
+Filename: ./simdjson_5.1.1-1_aarch64.deb
+Size: 391924
+MD5sum: b9c944db48fb72ef4d7a3413154e2de2
+SHA1: 0294165377d28bab50c2acac74cbe04b23ad39db
+SHA256: 73a199498a0a82b93a377e4889935d22d3cff8a505571c7e10659202620cde53
 
 Package: sing-box
 Architecture: aarch64
@@ -3951,6 +4480,20 @@ Size: 62504
 MD5sum: c37308a638b47d6733a29594bc930eab
 SHA1: 52127071f01542af91e139296e3dbcb986f0efea
 SHA256: 651ad74831aa918a74c3489626b49341bb36ae4c96c1ead5499a653f6f2f22cc
+
+Package: yuku
+Architecture: aarch64
+Installed-Size: 1308
+Maintainer: @termux
+Version: 0.19.0-1
+Homepage: https://github.com/yuku-toolchain/yuku
+Depends: nodejs
+Description: High-performance JavaScript/TypeScript parser and codegen toolchain
+Filename: ./yuku_0.19.0-1_aarch64.deb
+Size: 255896
+MD5sum: 3ec240b1f3173067a80ddad3324554e1
+SHA1: 7f5898f72e4a78848e183c715615912cc48f1e64
+SHA256: 2ce8911c7a87f6fc5854f79ce5c604293aa379172fdac13df2812db662fe97c7
 
 Package: yuma123-static
 Architecture: aarch64
