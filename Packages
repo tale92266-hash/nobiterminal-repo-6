@@ -4038,6 +4038,20 @@ MD5sum: 4e30a2f1c1ee86fe7dcb31f0b9aaaa0f
 SHA1: b8996813a70e39a475b6c5c941e0cd6286d4d88e
 SHA256: fb9273a18586190a50e3896af0ace28c707c1e326a9587af101ed698efcf6524
 
+Package: zellij
+Architecture: aarch64
+Installed-Size: 40636
+Maintainer: Jonathan Lei <me@xjonathan.dev>
+Version: 0.45.1-3
+Homepage: https://zellij.dev/
+Depends: libnghttp2, libngtcp2, libnghttp3, libssh2, openssl
+Description: A terminal workspace with batteries included
+Filename: ./zellij_0.45.1-3_aarch64.deb
+Size: 7908548
+MD5sum: 2e65b63977313549e4e9d791acb69f80
+SHA1: 743ccfd78d1ed3251063ac8d251233630cf68b84
+SHA256: 26e3a50ae733bb51efb7d063d9425ad92b3a9c3aff0055872f5675bc9b6552ea
+
 Package: zls
 Architecture: aarch64
 Installed-Size: 2980
